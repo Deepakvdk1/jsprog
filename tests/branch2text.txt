@@ -1,1 +1,1 @@
-branch 2 file
+new changes from branch 1
