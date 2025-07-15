@@ -1,0 +1,42 @@
+# Test info
+
+- Name: flipkart flight search
+- Location: C:\Users\deepa\OneDrive\Desktop\JSprog\tests\flipkartflight.spec.js:2:5
+
+# Error details
+
+```
+Error: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for getByText('New Delhi, INDEL').nth(1)
+
+    at C:\Users\deepa\OneDrive\Desktop\JSprog\tests\flipkartflight.spec.js:10:53
+```
+
+# Test source
+
+```ts
+   1 | import { test,expect } from "@playwright/test";
+   2 | test("flipkart flight search",async({page})=>{
+   3 |     await page.goto("https://www.flipkart.com/travel/flights?param=DTNavIcon&fm=neo%2Fmerchandising&iid=M_ef3fc1f7-50bc-45de-81e0-71b469040e5e_1_372UD5BXDFYS_MC.0LS0RGMNPXTP&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Flight%2BBookings_0LS0RGMNPXTP&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L0_view-all&cid=0LS0RGMNPXTP");
+   4 |     await page.waitForLoadState();
+   5 |     expect(page.locator("//div[text()='Round Trip']")).toBeVisible();
+   6 |     await page.locator("//div[text()='Round Trip']").click();
+   7 |     await page.locator("//input[@class='v2VFa- rLGgLC g9KxuM smJZop ZjUTQC z2D4XG']").fill("Bengaluru");
+   8 |     await page.getByText('Bengaluru, INBLR').first().click();
+   9 |     await page.locator("//input[@class='v2VFa- rLGgLC g9KxuM smJZop G+rzy6 z2D4XG']").fill("Delhi");
+> 10 |     await page.getByText('New Delhi, INDEL').nth(1).click();
+     |                                                     ^ Error: locator.click: Target page, context or browser has been closed
+  11 |     await page.locator("//tr[@class='iyzVqW']//button[@class='R0r93E']").last().click();
+  12 |     await page.locator("//div[@class='_1w7bXX' and text()='August 2025']/../../../..//button[@class='pl8ttv' and text()='10']").click();
+  13 |     await page.locator("//div[@class='_1w7bXX' and text()='August 2025']/../../../..//button[@class='pl8ttv' and text()='20']").click();
+  14 |     await page.locator("//input[@class='v2VFa- n-5ycO z2D4XG']").click(); //travellers
+  15 |     await page.locator("//div[text()='Premium Economy']").click(); //premium economy
+  16 |     await page.locator("//button[text()='Done']").click(); //done button
+  17 |     await page.locator("//button[@class='QqFHMw sgUmTV M5XAsp']").click(); //search flights
+  18 |     await page.waitForLoadState();
+  19 |     //await page.locator("(//section[@class='LjsRty']//div[text()='Onward Price']/following::div[@class='PYKUdo'])[2]").dragTo(page.locator("(//div[@class='C+PahU']//div[@style='width: 0px;'])[1]"), { force: true });
+  20 |     await page.locator("//div[@class='-suZGK']//div[@class='PYKUdo']").nth(1).click()
+  21 |     await page.waitForTimeout(5000); 
+  22 | })
+```

@@ -1,0 +1,14 @@
+Promise {
+  'Air India | AI-2654',
+  [Symbol(async_id_symbol)]: 60505,
+  [Symbol(trigger_async_id_symbol)]: 57890,
+  [Symbol(kResourceStore)]: undefined
+}
+₹10,244
+Promise {
+  'Air India | AI-2819',
+  [Symbol(async_id_symbol)]: 65402,
+  [Symbol(trigger_async_id_symbol)]: 63008,
+  [Symbol(kResourceStore)]: undefined
+}
+₹8,788

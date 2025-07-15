@@ -1,0 +1,6 @@
+Number of rows: 5
+Row 1: 19:20DELFlight Details2h 40m22:00BLRSG 151Direct
+Row 2: 09:10DELFlight Details6h 55m16:05BLRSG 937, SG 535Connecting,with halt at DBR
+Row 3: 23:10BLRFlight Details3h 0m02:10+1DELSG 8530Direct
+Row 4: 05:20BLRFlight Details12h 35m17:55DELSG 831, SG 2709Connecting,with halt at DED
+Row 5: 16:50BLRFlight Details6h 55m23:45DELSG 531, SG 2478Connecting,with halt at PAT

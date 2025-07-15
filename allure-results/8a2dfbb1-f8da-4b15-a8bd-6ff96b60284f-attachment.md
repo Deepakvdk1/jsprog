@@ -1,0 +1,1103 @@
+# Test info
+
+- Name: amazon product sort
+- Location: C:\Users\deepa\OneDrive\Desktop\JSprog\tests\amazonproductsort.spec.js:3:5
+
+# Error details
+
+```
+Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)
+
+Locator: locator('//span[@class=\'a-color-state a-text-bold\']')
+Expected string: "samsung galaxy s24 ultra"
+Received string: "\"samsung galaxy s24 ultra 5+g cover\""
+Call log:
+  - expect.toHaveText with timeout 5000ms
+  - waiting for locator('//span[@class=\'a-color-state a-text-bold\']')
+    9 × locator resolved to <span class="a-color-state a-text-bold">"samsung galaxy s24 ultra 5+g cover"</span>
+      - unexpected value ""samsung galaxy s24 ultra 5+g cover""
+
+    at C:\Users\deepa\OneDrive\Desktop\JSprog\tests\amazonproductsort.spec.js:15:72
+```
+
+# Page snapshot
+
+```yaml
+- button "Shortcuts menu"
+- banner:
+  - navigation "Primary":
+    - link "Amazon.in":
+      - /url: /ref=nav_logo
+      - text: .in
+    - button "Delivering to Bengaluru 562130 Update location"
+    - search:
+      - text: All
+      - combobox "Select the department you want to search in":
+        - option "All Categories" [selected]
+        - option "Alexa Skills"
+        - option "Amazon Devices"
+        - option "Amazon Fashion"
+        - option "Amazon Fresh"
+        - option "Amazon Pharmacy"
+        - option "Appliances"
+        - option "Apps & Games"
+        - option "Audible Audiobooks"
+        - option "Baby"
+        - option "Beauty"
+        - option "Books"
+        - option "Car & Motorbike"
+        - option "Clothing & Accessories"
+        - option "Collectibles"
+        - option "Computers & Accessories"
+        - option "Deals"
+        - option "Electronics"
+        - option "Furniture"
+        - option "Garden & Outdoors"
+        - option "Gift Cards"
+        - option "Grocery & Gourmet Foods"
+        - option "Health & Personal Care"
+        - option "Home & Kitchen"
+        - option "Industrial & Scientific"
+        - option "Jewellery"
+        - option "Kindle Store"
+        - option "Luggage & Bags"
+        - option "Luxury Beauty"
+        - option "Movies & TV Shows"
+        - option "MP3 Music"
+        - option "Music"
+        - option "Musical Instruments"
+        - option "Office Products"
+        - option "Pet Supplies"
+        - option "Prime Video"
+        - option "Shoes & Handbags"
+        - option "Software"
+        - option "Sports, Fitness & Outdoors"
+        - option "Subscribe & Save"
+        - option "Tools & Home Improvement"
+        - option "Toys & Games"
+        - option "Under ₹500"
+        - option "Video Games"
+        - option "Watches"
+      - searchbox "Search Amazon.in": samsung galaxy s24 ultra 5+g cover
+      - button "Go"
+    - link "Choose a language for shopping in Amazon India. The current selection is English (EN).":
+      - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+      - img "India"
+      - text: EN
+    - button "Expand to Change Language or Country"
+    - link "Hello, sign in Account & Lists":
+      - /url: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fs%3Fk%3Dsamsung%2Bgalaxy%2Bs24%2Bultra%2B5%252Bg%2Bcover%26crid%3D1IF8YQCBZPG9R%26sprefix%3Dsamsung%2Bgalaxy%2Bs24%2Bultra%252Caps%252C274%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+    - button "Expand Account and Lists"
+    - link "Returns & Orders":
+      - /url: /gp/css/order-history?ref_=nav_orders_first
+    - link "0 items in cart":
+      - /url: /gp/cart/view.html?ref_=nav_cart
+    - button "Open All Categories Menu": All
+    - list:
+      - listitem:
+        - link "Fresh":
+          - /url: /fresh?ref_=nav_cs_fresh
+      - listitem:
+        - link "MX Player":
+          - /url: /minitv?ref_=nav_avod_desktop_topnav
+      - listitem:
+        - link "Sell":
+          - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+      - listitem:
+        - link "Bestsellers":
+          - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+      - listitem:
+        - link "Today's Deals":
+          - /url: /deals?ref_=nav_cs_gb
+      - listitem:
+        - link "Mobiles":
+          - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+      - listitem:
+        - link "Prime":
+          - /url: /prime?ref_=nav_cs_primelink_nonmember
+        - button "Prime Details"
+      - listitem:
+        - link "Customer Service":
+          - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+      - listitem:
+        - link "New Releases":
+          - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+      - listitem:
+        - link "Fashion":
+          - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+      - listitem:
+        - link "Amazon Pay":
+          - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+      - listitem:
+        - link "Electronics":
+          - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+      - listitem:
+        - link "Home & Kitchen":
+          - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+      - listitem:
+        - link "Computers":
+          - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+      - listitem:
+        - link "Books":
+          - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+      - listitem:
+        - link "Car & Motorbike":
+          - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+      - listitem:
+        - link "Video Games":
+          - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+      - listitem:
+        - link "Toys & Games":
+          - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+      - listitem:
+        - link "Grocery & Gourmet Foods":
+          - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+      - listitem:
+        - link "Home Improvement":
+          - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+      - listitem:
+        - link "Beauty & Personal Care":
+          - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+      - listitem:
+        - link "Gift Cards":
+          - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+      - listitem:
+        - link "Health, Household & Personal Care":
+          - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+      - listitem:
+        - link "Sports, Fitness & Outdoors":
+          - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+      - listitem:
+        - link "Custom Products":
+          - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+      - listitem:
+        - link "Baby":
+          - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+      - listitem:
+        - link "Pet Supplies":
+          - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+      - listitem:
+        - link "AmazonBasics":
+          - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+      - listitem:
+        - link "Subscribe & Save":
+          - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+      - listitem:
+        - link "Audible":
+          - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+      - listitem:
+        - link "Gift Ideas":
+          - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+    - dialog
+- 'heading "1-16 of 391 results for \"samsung galaxy s24 ultra 5+g cover\" Sort by: Featured" [level=1]':
+  - heading "1-16 of 391 results for \"samsung galaxy s24 ultra 5+g cover\"" [level=2]
+  - text: "Sort by:"
+  - combobox "Sort by:":
+    - option "Featured" [selected]
+    - 'option "Price: Low to High"'
+    - 'option "Price: High to Low"'
+    - option "Avg. Customer Review"
+    - option "Newest Arrivals"
+    - option "Best Sellers"
+- link "the word'pik'in black and white":
+  - /url: https://aax-eu.amazon.in/x/c/JIXAOsyPEBAprTLOWbUvcF4AAAGX8r0LFAMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBp_3OP/clv1_CEuOPUxokZA0iHrVWuwEnTDxEElWeb8pkYxaxyCxpvxFx38R6Wulavw18HHz9hvVjq0yzpNb3X7OfU1ZAmcAB0NKaTOwRvPeOEQRQ1oseUeaTZlMskfB8IkGXCRaU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUewHuPqCFwes6289GY-iCzsPlPtztNsNN6cZGUggAvo8C-9FHE6Fj0W5fDGi7yyiNoLYWWBqbcyR9qkSqwUQnhinFOJGQaFdhRZzXuNdUWekbGEVr5yp2N7x1hxpbFTt6_ZtQIVQjGYWURtXIosi7ZjcafA60qqNOXGqLhlSWWDZocdV7oO7yLS1jyr2bwwXXNG9qEYuBpfMO-gRoObkKrAKjilOZwWTAVi10VGw3GxXfaBTUYITxWzisYRJk8VE_FmStJHvldKE1kd1iexabo7x0qdMMJgzuMyw5qT91ifsAuYSsnnEhndCQ7IsNQ2vV_jWvRvKcC2ssbO0beD9cwrNjG61UnjAhpYLYM0lNUV9cnflAj78pH18ENh_7p1M7oQLcbuF-iz968mRPnu0W3v4GMHSwI0ctp4XhC_vE36rSAV8qGzDtnxHXaclxy2NU9NQETsWgrZ0wKRjp8X_Y1gbTGn_-EAJEtST7JzJmn-c6RNQkZhS52AYZEsx1gwU8tpiaHHqmL8rjTi1s-y_Igddpd9Ngs4mulXMyte6HO8WUr96ajkuf4Wbxsk9NyFabnG2-gWXxp8Uvttw-ngDDPPscKssxCtqHx_iR3BFvCX8vOjjMriHfqmh_C08haU5OBybNyDqVsxWcSN_m7q-2vuzD52WqU7tALe-6VqPy_GKTbhAmLMkLHk5PYWkHbbvGxizHF38QJhmW-b1QzTwGWpsN26Og6xhBlylqKrS_nXom6ZRQpAR0SUOPDa60PhjKcbIkfvd1RW2hXLPvDxYrO-adcZ7dutDtBwXz7NlmW9cKMAJrPo6nUWivOLsyl3JiWIGs4bPOl94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy4tQdCsHxgYd-2dwabL17FnoYpbXatlSVZ6IMRRyCwVEgqDoxzlv0FUcOAcNwvvpPoSl0C2vaHhvuHmMJ-U6-eoT5t4Ti7s88NDyHMzxQEjjysnL1UODSf4FKquff6xPlTTpN7nErdPoMCtq4V8Ta4iol8AN9aRI4e4m8KNvHJm1L3UteiLCjvr7CdDZu03IYp_v4VYPGXv-FclCA9UcwfcJsejfnGFUf9A7aS8rJpVJSYHpJNZzBR2BFEsI_1NpGxh0snWpeA-tk2qdn_fgF_tu-DiQ9FeFWgBbzfHriwMYV87xl9NQCUwwbz3qXCRzqPEh_TeqGg1nJf2N3nUD5iTo_slNjcD-fFeR-ZiN8FN2qdVvpnZA7WHvH9Jyhfc9q_UoTZjBmN5H8yDc92SQxLR88ToVcnhfXHsJCjyfZ3f8_gTOt2Z5ZmQ-Nfw9ZkBWoxbPcq1G9jP7qowjYrUhxGB9TxO2S6LAfUdVAwBYh8t6YSSdkks2AbOuuMIMV6fzb6afE22cvoySvCPvF23UMH6jezW00rOQC3hdo/https://www.amazon.in/stores/page/4D4D801C-BE70-48F5-A9BC-B397C988C5DC/?_encoding=UTF8&store_ref=SB_A04271051KQXVI97E0J1T-A05759593JKN3ZDDR73VK&pd_rd_plhdr=t&aaxitk=50345083aa0de29db62be1054f574129&hsa_cr_id=3751471480902&lp_asins=B084RVXBXJ%2CB08L5D4MTN&lp_query=samsung%20galaxy%20s24%20ultra%205%20g%20cover&lp_slot=auto-sparkle-hsa-tetris&ref_=sbx_be_s_sparkle_lsi4d_logo&pd_rd_w=gBAhW&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=HfMHF&pd_rd_r=6fd10db2-1b31-40bc-9a35-2b7d5e007257
+  - img "the word'pik'in black and white"
+- link "Stylish Back Cover For Samsung J7 Prime":
+  - /url: https://aax-eu.amazon.in/x/c/JIXAOsyPEBAprTLOWbUvcF4AAAGX8r0LFAMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBp_3OP/clv1_CEuOPUxokZA0iHrVWuwEnTDxEElWeb8pkYxaxyCxpvxFx38R6Wulavw18HHz9hvVjq0yzpNb3X7OfU1ZAmcAB0NKaTOwRvPeOEQRQ1oseUeaTZlMskfB8IkGXCRaU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUewHuPqCFwes6289GY-iCzsPlPtztNsNN6cZGUggAvo8C-9FHE6Fj0W5fDGi7yyiNoLYWWBqbcyR9qkSqwUQnhinFOJGQaFdhRZzXuNdUWekbGEVr5yp2N7x1hxpbFTt6_ZtQIVQjGYWURtXIosi7ZjcafA60qqNOXGqLhlSWWDZocdV7oO7yLS1jyr2bwwXXNG9qEYuBpfMO-gRoObkKrAKjilOZwWTAVi10VGw3GxXfaBTUYITxWzisYRJk8VE_FmStJHvldKE1kd1iexabo7x0qdMMJgzuMyw5qT91ifsAuYSsnnEhndCQ7IsNQ2vV_jWvRvKcC2ssbO0beD9cwrNjG61UnjAhpYLYM0lNUV9cnflAj78pH18ENh_7p1M7oQLcbuF-iz968mRPnu0W3v4GMHSwI0ctp4XhC_vE36rSAV8qGzDtnxHXaclxy2NU9NQETsWgrZ0wKRjp8X_Y1gbTGn_-EAJEtST7JzJmn-c6RNQkZhS52AYZEsx1gwU8tpiaHHqmL8rjTi1s-y_Igddpd9Ngs4mulXMyte6HO8WUr96ajkuf4Wbxsk9NyFabnG2-gWXxp8Uvttw-ngDDPPscKssxCtqHx_iR3BFvCX8vOjjMriHfqmh_C08haU5OBybNyDqVsxWcSN_m7q-2vuzD52WqU7tALe-6VqPy_GKTbhAmLMkLHk5PYWkHbbvGxizHF38QJhmW-b1QzTwGWpsN26Og6xhBlylqKrS_nXom6ZRQpAR0SUOPDa60PhjKcbIkfvd1RW2hXLPvDxYrO-adcZ7dutDtBwXz7NlmW9cKMAJrPo6nUWivOLsyl3JiWIGs4bPOl94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy4tQdCsHxgYd-2dwabL17FnoYpbXatlSVZ6IMRRyCwVEgqDoxzlv0FUcOAcNwvvpPoSl0C2vaHhvuHmMJ-U6-eoT5t4Ti7s88NDyHMzxQEjjysnL1UODSf4FKquff6xPlTTpN7nErdPoMCtq4V8Ta4iol8AN9aRI4e4m8KNvHJm1L3UteiLCjvr7CdDZu03IYp_v4VYPGXv-FclCA9UcwfcJsejfnGFUf9A7aS8rJpVJSYHpJNZzBR2BFEsI_1NpGxh0snWpeA-tk2qdn_fgF_tu-DiQ9FeFWgBbzfHriwMYV87xl9NQCUwwbz3qXCRzqPEh_TeqGg1nJf2N3nUD5iTo_slNjcD-fFeR-ZiN8FN2qdVvpnZA7WHvH9Jyhfc9q_UoTZjBmN5H8yDc92SQxLR88ToVcnhfXHsJCjyfZ3f8_gTOt2Z5ZmQ-Nfw9ZkBWoxbPcq1G9jP7qowjYrUhxGB9TxO2S6LAfUdVAwBYh8t6YSSdkks2AbOuuMIMV6fzb6afE22cvoySvCPvF23UMH6jezW00rOQC3hdo/https://www.amazon.in/stores/page/4D4D801C-BE70-48F5-A9BC-B397C988C5DC/?_encoding=UTF8&store_ref=SB_A04271051KQXVI97E0J1T-A05759593JKN3ZDDR73VK&pd_rd_plhdr=t&aaxitk=50345083aa0de29db62be1054f574129&hsa_cr_id=3751471480902&lp_asins=B084RVXBXJ%2CB08L5D4MTN&lp_query=samsung%20galaxy%20s24%20ultra%205%20g%20cover&lp_slot=auto-sparkle-hsa-tetris&ref_=sbx_be_s_sparkle_lsi4d_hl&pd_rd_w=gBAhW&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=HfMHF&pd_rd_r=6fd10db2-1b31-40bc-9a35-2b7d5e007257
+- link "Shop Pikkme":
+  - /url: https://aax-eu.amazon.in/x/c/JIXAOsyPEBAprTLOWbUvcF4AAAGX8r0LFAMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBp_3OP/clv1_CEuOPUxokZA0iHrVWuwEnTDxEElWeb8pkYxaxyCxpvxFx38R6Wulavw18HHz9hvVjq0yzpNb3X7OfU1ZAmcAB0NKaTOwRvPeOEQRQ1oseUeaTZlMskfB8IkGXCRaU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUewHuPqCFwes6289GY-iCzsPlPtztNsNN6cZGUggAvo8C-9FHE6Fj0W5fDGi7yyiNoLYWWBqbcyR9qkSqwUQnhinFOJGQaFdhRZzXuNdUWekbGEVr5yp2N7x1hxpbFTt6_ZtQIVQjGYWURtXIosi7ZjcafA60qqNOXGqLhlSWWDZocdV7oO7yLS1jyr2bwwXXNG9qEYuBpfMO-gRoObkKrAKjilOZwWTAVi10VGw3GxXfaBTUYITxWzisYRJk8VE_FmStJHvldKE1kd1iexabo7x0qdMMJgzuMyw5qT91ifsAuYSsnnEhndCQ7IsNQ2vV_jWvRvKcC2ssbO0beD9cwrNjG61UnjAhpYLYM0lNUV9cnflAj78pH18ENh_7p1M7oQLcbuF-iz968mRPnu0W3v4GMHSwI0ctp4XhC_vE36rSAV8qGzDtnxHXaclxy2NU9NQETsWgrZ0wKRjp8X_Y1gbTGn_-EAJEtST7JzJmn-c6RNQkZhS52AYZEsx1gwU8tpiaHHqmL8rjTi1s-y_Igddpd9Ngs4mulXMyte6HO8WUr96ajkuf4Wbxsk9NyFabnG2-gWXxp8Uvttw-ngDDPPscKssxCtqHx_iR3BFvCX8vOjjMriHfqmh_C08haU5OBybNyDqVsxWcSN_m7q-2vuzD52WqU7tALe-6VqPy_GKTbhAmLMkLHk5PYWkHbbvGxizHF38QJhmW-b1QzTwGWpsN26Og6xhBlylqKrS_nXom6ZRQpAR0SUOPDa60PhjKcbIkfvd1RW2hXLPvDxYrO-adcZ7dutDtBwXz7NlmW9cKMAJrPo6nUWivOLsyl3JiWIGs4bPOl94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy4tQdCsHxgYd-2dwabL17FnoYpbXatlSVZ6IMRRyCwVEgqDoxzlv0FUcOAcNwvvpPoSl0C2vaHhvuHmMJ-U6-eoT5t4Ti7s88NDyHMzxQEjjysnL1UODSf4FKquff6xPlTTpN7nErdPoMCtq4V8Ta4iol8AN9aRI4e4m8KNvHJm1L3UteiLCjvr7CdDZu03IYp_v4VYPGXv-FclCA9UcwfcJsejfnGFUf9A7aS8rJpVJSYHpJNZzBR2BFEsI_1NpGxh0snWpeA-tk2qdn_fgF_tu-DiQ9FeFWgBbzfHriwMYV87xl9NQCUwwbz3qXCRzqPEh_TeqGg1nJf2N3nUD5iTo_slNjcD-fFeR-ZiN8FN2qdVvpnZA7WHvH9Jyhfc9q_UoTZjBmN5H8yDc92SQxLR88ToVcnhfXHsJCjyfZ3f8_gTOt2Z5ZmQ-Nfw9ZkBWoxbPcq1G9jP7qowjYrUhxGB9TxO2S6LAfUdVAwBYh8t6YSSdkks2AbOuuMIMV6fzb6afE22cvoySvCPvF23UMH6jezW00rOQC3hdo/https://www.amazon.in/stores/page/4D4D801C-BE70-48F5-A9BC-B397C988C5DC/?_encoding=UTF8&store_ref=SB_A04271051KQXVI97E0J1T-A05759593JKN3ZDDR73VK&pd_rd_plhdr=t&aaxitk=50345083aa0de29db62be1054f574129&hsa_cr_id=3751471480902&lp_asins=B084RVXBXJ%2CB08L5D4MTN&lp_query=samsung%20galaxy%20s24%20ultra%205%20g%20cover&lp_slot=auto-sparkle-hsa-tetris&ref_=sbx_be_s_sparkle_lsi4d_cta&pd_rd_w=gBAhW&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=HfMHF&pd_rd_r=6fd10db2-1b31-40bc-9a35-2b7d5e007257
+- link "Display of smartphone cases in various colors and styles, including folio and standard designs. A smartphone with blue-purple screen is propped up in one case.":
+  - /url: https://aax-eu.amazon.in/x/c/JIXAOsyPEBAprTLOWbUvcF4AAAGX8r0LFAMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBp_3OP/clv1_CEuOPUxokZA0iHrVWuwEnTDxEElWeb8pkYxaxyCxpvxFx38R6Wulavw18HHz9hvVjq0yzpNb3X7OfU1ZAmcAB0NKaTOwRvPeOEQRQ1oseUeaTZlMskfB8IkGXCRaU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUewHuPqCFwes6289GY-iCzsPlPtztNsNN6cZGUggAvo8C-9FHE6Fj0W5fDGi7yyiNoLYWWBqbcyR9qkSqwUQnhinFOJGQaFdhRZzXuNdUWekbGEVr5yp2N7x1hxpbFTt6_ZtQIVQjGYWURtXIosi7ZjcafA60qqNOXGqLhlSWWDZocdV7oO7yLS1jyr2bwwXXNG9qEYuBpfMO-gRoObkKrAKjilOZwWTAVi10VGw3GxXfaBTUYITxWzisYRJk8VE_FmStJHvldKE1kd1iexabo7x0qdMMJgzuMyw5qT91ifsAuYSsnnEhndCQ7IsNQ2vV_jWvRvKcC2ssbO0beD9cwrNjG61UnjAhpYLYM0lNUV9cnflAj78pH18ENh_7p1M7oQLcbuF-iz968mRPnu0W3v4GMHSwI0ctp4XhC_vE36rSAV8qGzDtnxHXaclxy2NU9NQETsWgrZ0wKRjp8X_Y1gbTGn_-EAJEtST7JzJmn-c6RNQkZhS52AYZEsx1gwU8tpiaHHqmL8rjTi1s-y_Igddpd9Ngs4mulXMyte6HO8WUr96ajkuf4Wbxsk9NyFabnG2-gWXxp8Uvttw-ngDDPPscKssxCtqHx_iR3BFvCX8vOjjMriHfqmh_C08haU5OBybNyDqVsxWcSN_m7q-2vuzD52WqU7tALe-6VqPy_GKTbhAmLMkLHk5PYWkHbbvGxizHF38QJhmW-b1QzTwGWpsN26Og6xhBlylqKrS_nXom6ZRQpAR0SUOPDa60PhjKcbIkfvd1RW2hXLPvDxYrO-adcZ7dutDtBwXz7NlmW9cKMAJrPo6nUWivOLsyl3JiWIGs4bPOl94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy4tQdCsHxgYd-2dwabL17FnoYpbXatlSVZ6IMRRyCwVEgqDoxzlv0FUcOAcNwvvpPoSl0C2vaHhvuHmMJ-U6-eoT5t4Ti7s88NDyHMzxQEjjysnL1UODSf4FKquff6xPlTTpN7nErdPoMCtq4V8Ta4iol8AN9aRI4e4m8KNvHJm1L3UteiLCjvr7CdDZu03IYp_v4VYPGXv-FclCA9UcwfcJsejfnGFUf9A7aS8rJpVJSYHpJNZzBR2BFEsI_1NpGxh0snWpeA-tk2qdn_fgF_tu-DiQ9FeFWgBbzfHriwMYV87xl9NQCUwwbz3qXCRzqPEh_TeqGg1nJf2N3nUD5iTo_slNjcD-fFeR-ZiN8FN2qdVvpnZA7WHvH9Jyhfc9q_UoTZjBmN5H8yDc92SQxLR88ToVcnhfXHsJCjyfZ3f8_gTOt2Z5ZmQ-Nfw9ZkBWoxbPcq1G9jP7qowjYrUhxGB9TxO2S6LAfUdVAwBYh8t6YSSdkks2AbOuuMIMV6fzb6afE22cvoySvCPvF23UMH6jezW00rOQC3hdo/https://www.amazon.in/stores/page/4D4D801C-BE70-48F5-A9BC-B397C988C5DC/?_encoding=UTF8&store_ref=SB_A04271051KQXVI97E0J1T-A05759593JKN3ZDDR73VK&pd_rd_plhdr=t&aaxitk=50345083aa0de29db62be1054f574129&hsa_cr_id=3751471480902&lp_asins=B084RVXBXJ%2CB08L5D4MTN&lp_query=samsung%20galaxy%20s24%20ultra%205%20g%20cover&lp_slot=auto-sparkle-hsa-tetris&ref_=sbx_be_s_sparkle_lsi4d_ls_dpc&pd_rd_w=gBAhW&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=HfMHF&pd_rd_r=6fd10db2-1b31-40bc-9a35-2b7d5e007257
+  - img "Display of smartphone cases in various colors and styles, including folio and standard designs. A smartphone with blue-purple screen is propped up in one case."
+- link "Pikkme Samsung Galaxy J7 Prime Flip Cover Magnetic Leather Wallet Case Shockproof TPU for Samsung Galaxy J7 Prime (Brown)":
+  - /url: https://aax-eu.amazon.in/x/c/JIXAOsyPEBAprTLOWbUvcF4AAAGX8r0LFAMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBp_3OP/clv1_CEuOPUxokZA0iHrVWuwEnTDxEElWeb8pkYxaxyCxpvxFx38R6Wulavw18HHz9hvVjq0yzpNb3X7OfU1ZAmcAB0NKaTOwRvPeOEQRQ1oseUeaTZlMskfB8IkGXCRaU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUewHuPqCFwes6289GY-iCzsPlPtztNsNN6cZGUggAvo8C-9FHE6Fj0W5fDGi7yyiNoLYWWBqbcyR9qkSqwUQnhinFOJGQaFdhRZzXuNdUWekbGEVr5yp2N7x1hxpbFTt6_ZtQIVQjGYWURtXIosi7ZjcafA60qqNOXGqLhlSWWDZocdV7oO7yLS1jyr2bwwXXNG9qEYuBpfMO-gRoObkKrAKjilOZwWTAVi10VGw3GxXfaBTUYITxWzisYRJk8VE_FmStJHvldKE1kd1iexabo7x0qdMMJgzuMyw5qT91ifsAuYSsnnEhndCQ7IsNQ2vV_jWvRvKcC2ssbO0beD9cwrNjG61UnjAhpYLYM0lNUV9cnflAj78pH18ENh_7p1M7oQLcbuF-iz968mRPnu0W3v4GMHSwI0ctp4XhC_vE36rSAV8qGzDtnxHXaclxy2NU9NQETsWgrZ0wKRjp8X_Y1gbTGn_-EAJEtST7JzJmn-c6RNQkZhS52AYZEsx1gwU8tpiaHHqmL8rjTi1s-y_Igddpd9Ngs4mulXMyte6HO8WUr96ajkuf4Wbxsk9NyFabnG2-gWXxp8Uvttw-ngDDPPscKssxCtqHx_iR3BFvCX8vOjjMriHfqmh_C08haU5OBybNyDqVsxWcSN_m7q-2vuzD52WqU7tALe-6VqPy_GKTbhAmLMkLHk5PYWkHbbvGxizHF38QJhmW-b1QzTwGWpsN26Og6xhBlylqKrS_nXom6ZRQpAR0SUOPDa60PhjKcbIkfvd1RW2hXLPvDxYrO-adcZ7dutDtBwXz7NlmW9cKMAJrPo6nUWivOLsyl3JiWIGs4bPOl94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy4tQdCsHxgYd-2dwabL17FnoYpbXatlSVZ6IMRRyCwVEgqDoxzlv0FUcOAcNwvvpPoSl0C2vaHhvuHmMJ-U6-eoT5t4Ti7s88NDyHMzxQEjjysnL1UODSf4FKquff6xPlTTpN7nErdPoMCtq4V8Ta4iol8AN9aRI4e4m8KNvHJm1L3UteiLCjvr7CdDZu03IYp_v4VYPGXv-FclCA9UcwfcJsejfnGFUf9A7aS8rJpVJSYHpJNZzBR2BFEsI_1NpGxh0snWpeA-tk2qdn_fgF_tu-DiQ9FeFWgBbzfHriwMYV87xl9NQCUwwbz3qXCRzqPEh_TeqGg1nJf2N3nUD5iTo_slNjcD-fFeR-ZiN8FN2qdVvpnZA7WHvH9Jyhfc9q_UoTZjBmN5H8yDc92SQxLR88ToVcnhfXHsJCjyfZ3f8_gTOt2Z5ZmQ-Nfw9ZkBWoxbPcq1G9jP7qowjYrUhxGB9TxO2S6LAfUdVAwBYh8t6YSSdkks2AbOuuMIMV6fzb6afE22cvoySvCPvF23UMH6jezW00rOQC3hdo/https://www.amazon.in/gp/aw/d/B084RVXBXJ/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=50345083aa0de29db62be1054f574129&hsa_cr_id=3751471480902&qid=1752124164&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_lsi4d_asin_0_img&pd_rd_w=gBAhW&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=HfMHF&pd_rd_r=6fd10db2-1b31-40bc-9a35-2b7d5e007257
+  - img "Pikkme Samsung Galaxy J7 Prime Flip Cover Magnetic Leather Wallet Case Shockproof TPU for Samsung Galaxy J7 Prime (Brown)"
+- link "Pikkme Samsung Galaxy J7 Prime Flip Cover Magnetic Leather Wallet Case Shockproof TPU for Samsung Galaxy J7 Prime (Brown)":
+  - /url: https://aax-eu.amazon.in/x/c/JIXAOsyPEBAprTLOWbUvcF4AAAGX8r0LFAMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBp_3OP/clv1_CEuOPUxokZA0iHrVWuwEnTDxEElWeb8pkYxaxyCxpvxFx38R6Wulavw18HHz9hvVjq0yzpNb3X7OfU1ZAmcAB0NKaTOwRvPeOEQRQ1oseUeaTZlMskfB8IkGXCRaU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUewHuPqCFwes6289GY-iCzsPlPtztNsNN6cZGUggAvo8C-9FHE6Fj0W5fDGi7yyiNoLYWWBqbcyR9qkSqwUQnhinFOJGQaFdhRZzXuNdUWekbGEVr5yp2N7x1hxpbFTt6_ZtQIVQjGYWURtXIosi7ZjcafA60qqNOXGqLhlSWWDZocdV7oO7yLS1jyr2bwwXXNG9qEYuBpfMO-gRoObkKrAKjilOZwWTAVi10VGw3GxXfaBTUYITxWzisYRJk8VE_FmStJHvldKE1kd1iexabo7x0qdMMJgzuMyw5qT91ifsAuYSsnnEhndCQ7IsNQ2vV_jWvRvKcC2ssbO0beD9cwrNjG61UnjAhpYLYM0lNUV9cnflAj78pH18ENh_7p1M7oQLcbuF-iz968mRPnu0W3v4GMHSwI0ctp4XhC_vE36rSAV8qGzDtnxHXaclxy2NU9NQETsWgrZ0wKRjp8X_Y1gbTGn_-EAJEtST7JzJmn-c6RNQkZhS52AYZEsx1gwU8tpiaHHqmL8rjTi1s-y_Igddpd9Ngs4mulXMyte6HO8WUr96ajkuf4Wbxsk9NyFabnG2-gWXxp8Uvttw-ngDDPPscKssxCtqHx_iR3BFvCX8vOjjMriHfqmh_C08haU5OBybNyDqVsxWcSN_m7q-2vuzD52WqU7tALe-6VqPy_GKTbhAmLMkLHk5PYWkHbbvGxizHF38QJhmW-b1QzTwGWpsN26Og6xhBlylqKrS_nXom6ZRQpAR0SUOPDa60PhjKcbIkfvd1RW2hXLPvDxYrO-adcZ7dutDtBwXz7NlmW9cKMAJrPo6nUWivOLsyl3JiWIGs4bPOl94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy4tQdCsHxgYd-2dwabL17FnoYpbXatlSVZ6IMRRyCwVEgqDoxzlv0FUcOAcNwvvpPoSl0C2vaHhvuHmMJ-U6-eoT5t4Ti7s88NDyHMzxQEjjysnL1UODSf4FKquff6xPlTTpN7nErdPoMCtq4V8Ta4iol8AN9aRI4e4m8KNvHJm1L3UteiLCjvr7CdDZu03IYp_v4VYPGXv-FclCA9UcwfcJsejfnGFUf9A7aS8rJpVJSYHpJNZzBR2BFEsI_1NpGxh0snWpeA-tk2qdn_fgF_tu-DiQ9FeFWgBbzfHriwMYV87xl9NQCUwwbz3qXCRzqPEh_TeqGg1nJf2N3nUD5iTo_slNjcD-fFeR-ZiN8FN2qdVvpnZA7WHvH9Jyhfc9q_UoTZjBmN5H8yDc92SQxLR88ToVcnhfXHsJCjyfZ3f8_gTOt2Z5ZmQ-Nfw9ZkBWoxbPcq1G9jP7qowjYrUhxGB9TxO2S6LAfUdVAwBYh8t6YSSdkks2AbOuuMIMV6fzb6afE22cvoySvCPvF23UMH6jezW00rOQC3hdo/https://www.amazon.in/gp/aw/d/B084RVXBXJ/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=50345083aa0de29db62be1054f574129&hsa_cr_id=3751471480902&qid=1752124164&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_lsi4d_asin_0_title&pd_rd_w=gBAhW&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=HfMHF&pd_rd_r=6fd10db2-1b31-40bc-9a35-2b7d5e007257
+- link "Rated 4.2 out of 5 stars by 1784 reviews. Go to review section.":
+  - /url: https://aax-eu.amazon.in/x/c/JIXAOsyPEBAprTLOWbUvcF4AAAGX8r0LFAMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBp_3OP/clv1_CEuOPUxokZA0iHrVWuwEnTDxEElWeb8pkYxaxyCxpvxFx38R6Wulavw18HHz9hvVjq0yzpNb3X7OfU1ZAmcAB0NKaTOwRvPeOEQRQ1oseUeaTZlMskfB8IkGXCRaU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUewHuPqCFwes6289GY-iCzsPlPtztNsNN6cZGUggAvo8C-9FHE6Fj0W5fDGi7yyiNoLYWWBqbcyR9qkSqwUQnhinFOJGQaFdhRZzXuNdUWekbGEVr5yp2N7x1hxpbFTt6_ZtQIVQjGYWURtXIosi7ZjcafA60qqNOXGqLhlSWWDZocdV7oO7yLS1jyr2bwwXXNG9qEYuBpfMO-gRoObkKrAKjilOZwWTAVi10VGw3GxXfaBTUYITxWzisYRJk8VE_FmStJHvldKE1kd1iexabo7x0qdMMJgzuMyw5qT91ifsAuYSsnnEhndCQ7IsNQ2vV_jWvRvKcC2ssbO0beD9cwrNjG61UnjAhpYLYM0lNUV9cnflAj78pH18ENh_7p1M7oQLcbuF-iz968mRPnu0W3v4GMHSwI0ctp4XhC_vE36rSAV8qGzDtnxHXaclxy2NU9NQETsWgrZ0wKRjp8X_Y1gbTGn_-EAJEtST7JzJmn-c6RNQkZhS52AYZEsx1gwU8tpiaHHqmL8rjTi1s-y_Igddpd9Ngs4mulXMyte6HO8WUr96ajkuf4Wbxsk9NyFabnG2-gWXxp8Uvttw-ngDDPPscKssxCtqHx_iR3BFvCX8vOjjMriHfqmh_C08haU5OBybNyDqVsxWcSN_m7q-2vuzD52WqU7tALe-6VqPy_GKTbhAmLMkLHk5PYWkHbbvGxizHF38QJhmW-b1QzTwGWpsN26Og6xhBlylqKrS_nXom6ZRQpAR0SUOPDa60PhjKcbIkfvd1RW2hXLPvDxYrO-adcZ7dutDtBwXz7NlmW9cKMAJrPo6nUWivOLsyl3JiWIGs4bPOl94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy4tQdCsHxgYd-2dwabL17FnoYpbXatlSVZ6IMRRyCwVEgqDoxzlv0FUcOAcNwvvpPoSl0C2vaHhvuHmMJ-U6-eoT5t4Ti7s88NDyHMzxQEjjysnL1UODSf4FKquff6xPlTTpN7nErdPoMCtq4V8Ta4iol8AN9aRI4e4m8KNvHJm1L3UteiLCjvr7CdDZu03IYp_v4VYPGXv-FclCA9UcwfcJsejfnGFUf9A7aS8rJpVJSYHpJNZzBR2BFEsI_1NpGxh0snWpeA-tk2qdn_fgF_tu-DiQ9FeFWgBbzfHriwMYV87xl9NQCUwwbz3qXCRzqPEh_TeqGg1nJf2N3nUD5iTo_slNjcD-fFeR-ZiN8FN2qdVvpnZA7WHvH9Jyhfc9q_UoTZjBmN5H8yDc92SQxLR88ToVcnhfXHsJCjyfZ3f8_gTOt2Z5ZmQ-Nfw9ZkBWoxbPcq1G9jP7qowjYrUhxGB9TxO2S6LAfUdVAwBYh8t6YSSdkks2AbOuuMIMV6fzb6afE22cvoySvCPvF23UMH6jezW00rOQC3hdo/https://www.amazon.in/gp/aw/d/B084RVXBXJ/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=50345083aa0de29db62be1054f574129&hsa_cr_id=3751471480902&qid=1752124164&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_lsi4d_asin_0_rating&pd_rd_w=gBAhW&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=HfMHF&pd_rd_r=6fd10db2-1b31-40bc-9a35-2b7d5e007257#customerReviews
+  - text: 4.2 out of 5 stars. 1,784
+- link "Pikkme Samsung Galaxy J7 Prime Flip Cover Magnetic Leather Wallet Case Shockproof TPU for Samsung Galaxy J7 Prime (Blue)":
+  - /url: https://aax-eu.amazon.in/x/c/JIXAOsyPEBAprTLOWbUvcF4AAAGX8r0LFAMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBp_3OP/clv1_CEuOPUxokZA0iHrVWuwEnTDxEElWeb8pkYxaxyCxpvxFx38R6Wulavw18HHz9hvVjq0yzpNb3X7OfU1ZAmcAB0NKaTOwRvPeOEQRQ1oseUeaTZlMskfB8IkGXCRaU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUewHuPqCFwes6289GY-iCzsPlPtztNsNN6cZGUggAvo8C-9FHE6Fj0W5fDGi7yyiNoLYWWBqbcyR9qkSqwUQnhinFOJGQaFdhRZzXuNdUWekbGEVr5yp2N7x1hxpbFTt6_ZtQIVQjGYWURtXIosi7ZjcafA60qqNOXGqLhlSWWDZocdV7oO7yLS1jyr2bwwXXNG9qEYuBpfMO-gRoObkKrAKjilOZwWTAVi10VGw3GxXfaBTUYITxWzisYRJk8VE_FmStJHvldKE1kd1iexabo7x0qdMMJgzuMyw5qT91ifsAuYSsnnEhndCQ7IsNQ2vV_jWvRvKcC2ssbO0beD9cwrNjG61UnjAhpYLYM0lNUV9cnflAj78pH18ENh_7p1M7oQLcbuF-iz968mRPnu0W3v4GMHSwI0ctp4XhC_vE36rSAV8qGzDtnxHXaclxy2NU9NQETsWgrZ0wKRjp8X_Y1gbTGn_-EAJEtST7JzJmn-c6RNQkZhS52AYZEsx1gwU8tpiaHHqmL8rjTi1s-y_Igddpd9Ngs4mulXMyte6HO8WUr96ajkuf4Wbxsk9NyFabnG2-gWXxp8Uvttw-ngDDPPscKssxCtqHx_iR3BFvCX8vOjjMriHfqmh_C08haU5OBybNyDqVsxWcSN_m7q-2vuzD52WqU7tALe-6VqPy_GKTbhAmLMkLHk5PYWkHbbvGxizHF38QJhmW-b1QzTwGWpsN26Og6xhBlylqKrS_nXom6ZRQpAR0SUOPDa60PhjKcbIkfvd1RW2hXLPvDxYrO-adcZ7dutDtBwXz7NlmW9cKMAJrPo6nUWivOLsyl3JiWIGs4bPOl94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy4tQdCsHxgYd-2dwabL17FnoYpbXatlSVZ6IMRRyCwVEgqDoxzlv0FUcOAcNwvvpPoSl0C2vaHhvuHmMJ-U6-eoT5t4Ti7s88NDyHMzxQEjjysnL1UODSf4FKquff6xPlTTpN7nErdPoMCtq4V8Ta4iol8AN9aRI4e4m8KNvHJm1L3UteiLCjvr7CdDZu03IYp_v4VYPGXv-FclCA9UcwfcJsejfnGFUf9A7aS8rJpVJSYHpJNZzBR2BFEsI_1NpGxh0snWpeA-tk2qdn_fgF_tu-DiQ9FeFWgBbzfHriwMYV87xl9NQCUwwbz3qXCRzqPEh_TeqGg1nJf2N3nUD5iTo_slNjcD-fFeR-ZiN8FN2qdVvpnZA7WHvH9Jyhfc9q_UoTZjBmN5H8yDc92SQxLR88ToVcnhfXHsJCjyfZ3f8_gTOt2Z5ZmQ-Nfw9ZkBWoxbPcq1G9jP7qowjYrUhxGB9TxO2S6LAfUdVAwBYh8t6YSSdkks2AbOuuMIMV6fzb6afE22cvoySvCPvF23UMH6jezW00rOQC3hdo/https://www.amazon.in/gp/aw/d/B08L5D4MTN/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=50345083aa0de29db62be1054f574129&hsa_cr_id=3751471480902&qid=1752124164&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_lsi4d_asin_1_img&pd_rd_w=gBAhW&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=HfMHF&pd_rd_r=6fd10db2-1b31-40bc-9a35-2b7d5e007257
+  - img "Pikkme Samsung Galaxy J7 Prime Flip Cover Magnetic Leather Wallet Case Shockproof TPU for Samsung Galaxy J7 Prime (Blue)"
+- link "Pikkme Samsung Galaxy J7 Prime Flip Cover Magnetic Leather Wallet Case Shockproof TPU for Samsung Galaxy J7 Prime (Blue)":
+  - /url: https://aax-eu.amazon.in/x/c/JIXAOsyPEBAprTLOWbUvcF4AAAGX8r0LFAMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBp_3OP/clv1_CEuOPUxokZA0iHrVWuwEnTDxEElWeb8pkYxaxyCxpvxFx38R6Wulavw18HHz9hvVjq0yzpNb3X7OfU1ZAmcAB0NKaTOwRvPeOEQRQ1oseUeaTZlMskfB8IkGXCRaU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUewHuPqCFwes6289GY-iCzsPlPtztNsNN6cZGUggAvo8C-9FHE6Fj0W5fDGi7yyiNoLYWWBqbcyR9qkSqwUQnhinFOJGQaFdhRZzXuNdUWekbGEVr5yp2N7x1hxpbFTt6_ZtQIVQjGYWURtXIosi7ZjcafA60qqNOXGqLhlSWWDZocdV7oO7yLS1jyr2bwwXXNG9qEYuBpfMO-gRoObkKrAKjilOZwWTAVi10VGw3GxXfaBTUYITxWzisYRJk8VE_FmStJHvldKE1kd1iexabo7x0qdMMJgzuMyw5qT91ifsAuYSsnnEhndCQ7IsNQ2vV_jWvRvKcC2ssbO0beD9cwrNjG61UnjAhpYLYM0lNUV9cnflAj78pH18ENh_7p1M7oQLcbuF-iz968mRPnu0W3v4GMHSwI0ctp4XhC_vE36rSAV8qGzDtnxHXaclxy2NU9NQETsWgrZ0wKRjp8X_Y1gbTGn_-EAJEtST7JzJmn-c6RNQkZhS52AYZEsx1gwU8tpiaHHqmL8rjTi1s-y_Igddpd9Ngs4mulXMyte6HO8WUr96ajkuf4Wbxsk9NyFabnG2-gWXxp8Uvttw-ngDDPPscKssxCtqHx_iR3BFvCX8vOjjMriHfqmh_C08haU5OBybNyDqVsxWcSN_m7q-2vuzD52WqU7tALe-6VqPy_GKTbhAmLMkLHk5PYWkHbbvGxizHF38QJhmW-b1QzTwGWpsN26Og6xhBlylqKrS_nXom6ZRQpAR0SUOPDa60PhjKcbIkfvd1RW2hXLPvDxYrO-adcZ7dutDtBwXz7NlmW9cKMAJrPo6nUWivOLsyl3JiWIGs4bPOl94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy4tQdCsHxgYd-2dwabL17FnoYpbXatlSVZ6IMRRyCwVEgqDoxzlv0FUcOAcNwvvpPoSl0C2vaHhvuHmMJ-U6-eoT5t4Ti7s88NDyHMzxQEjjysnL1UODSf4FKquff6xPlTTpN7nErdPoMCtq4V8Ta4iol8AN9aRI4e4m8KNvHJm1L3UteiLCjvr7CdDZu03IYp_v4VYPGXv-FclCA9UcwfcJsejfnGFUf9A7aS8rJpVJSYHpJNZzBR2BFEsI_1NpGxh0snWpeA-tk2qdn_fgF_tu-DiQ9FeFWgBbzfHriwMYV87xl9NQCUwwbz3qXCRzqPEh_TeqGg1nJf2N3nUD5iTo_slNjcD-fFeR-ZiN8FN2qdVvpnZA7WHvH9Jyhfc9q_UoTZjBmN5H8yDc92SQxLR88ToVcnhfXHsJCjyfZ3f8_gTOt2Z5ZmQ-Nfw9ZkBWoxbPcq1G9jP7qowjYrUhxGB9TxO2S6LAfUdVAwBYh8t6YSSdkks2AbOuuMIMV6fzb6afE22cvoySvCPvF23UMH6jezW00rOQC3hdo/https://www.amazon.in/gp/aw/d/B08L5D4MTN/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=50345083aa0de29db62be1054f574129&hsa_cr_id=3751471480902&qid=1752124164&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_lsi4d_asin_1_title&pd_rd_w=gBAhW&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=HfMHF&pd_rd_r=6fd10db2-1b31-40bc-9a35-2b7d5e007257
+- link "Rated 4.2 out of 5 stars by 1784 reviews. Go to review section.":
+  - /url: https://aax-eu.amazon.in/x/c/JIXAOsyPEBAprTLOWbUvcF4AAAGX8r0LFAMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBp_3OP/clv1_CEuOPUxokZA0iHrVWuwEnTDxEElWeb8pkYxaxyCxpvxFx38R6Wulavw18HHz9hvVjq0yzpNb3X7OfU1ZAmcAB0NKaTOwRvPeOEQRQ1oseUeaTZlMskfB8IkGXCRaU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUewHuPqCFwes6289GY-iCzsPlPtztNsNN6cZGUggAvo8C-9FHE6Fj0W5fDGi7yyiNoLYWWBqbcyR9qkSqwUQnhinFOJGQaFdhRZzXuNdUWekbGEVr5yp2N7x1hxpbFTt6_ZtQIVQjGYWURtXIosi7ZjcafA60qqNOXGqLhlSWWDZocdV7oO7yLS1jyr2bwwXXNG9qEYuBpfMO-gRoObkKrAKjilOZwWTAVi10VGw3GxXfaBTUYITxWzisYRJk8VE_FmStJHvldKE1kd1iexabo7x0qdMMJgzuMyw5qT91ifsAuYSsnnEhndCQ7IsNQ2vV_jWvRvKcC2ssbO0beD9cwrNjG61UnjAhpYLYM0lNUV9cnflAj78pH18ENh_7p1M7oQLcbuF-iz968mRPnu0W3v4GMHSwI0ctp4XhC_vE36rSAV8qGzDtnxHXaclxy2NU9NQETsWgrZ0wKRjp8X_Y1gbTGn_-EAJEtST7JzJmn-c6RNQkZhS52AYZEsx1gwU8tpiaHHqmL8rjTi1s-y_Igddpd9Ngs4mulXMyte6HO8WUr96ajkuf4Wbxsk9NyFabnG2-gWXxp8Uvttw-ngDDPPscKssxCtqHx_iR3BFvCX8vOjjMriHfqmh_C08haU5OBybNyDqVsxWcSN_m7q-2vuzD52WqU7tALe-6VqPy_GKTbhAmLMkLHk5PYWkHbbvGxizHF38QJhmW-b1QzTwGWpsN26Og6xhBlylqKrS_nXom6ZRQpAR0SUOPDa60PhjKcbIkfvd1RW2hXLPvDxYrO-adcZ7dutDtBwXz7NlmW9cKMAJrPo6nUWivOLsyl3JiWIGs4bPOl94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy4tQdCsHxgYd-2dwabL17FnoYpbXatlSVZ6IMRRyCwVEgqDoxzlv0FUcOAcNwvvpPoSl0C2vaHhvuHmMJ-U6-eoT5t4Ti7s88NDyHMzxQEjjysnL1UODSf4FKquff6xPlTTpN7nErdPoMCtq4V8Ta4iol8AN9aRI4e4m8KNvHJm1L3UteiLCjvr7CdDZu03IYp_v4VYPGXv-FclCA9UcwfcJsejfnGFUf9A7aS8rJpVJSYHpJNZzBR2BFEsI_1NpGxh0snWpeA-tk2qdn_fgF_tu-DiQ9FeFWgBbzfHriwMYV87xl9NQCUwwbz3qXCRzqPEh_TeqGg1nJf2N3nUD5iTo_slNjcD-fFeR-ZiN8FN2qdVvpnZA7WHvH9Jyhfc9q_UoTZjBmN5H8yDc92SQxLR88ToVcnhfXHsJCjyfZ3f8_gTOt2Z5ZmQ-Nfw9ZkBWoxbPcq1G9jP7qowjYrUhxGB9TxO2S6LAfUdVAwBYh8t6YSSdkks2AbOuuMIMV6fzb6afE22cvoySvCPvF23UMH6jezW00rOQC3hdo/https://www.amazon.in/gp/aw/d/B08L5D4MTN/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=50345083aa0de29db62be1054f574129&hsa_cr_id=3751471480902&qid=1752124164&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_lsi4d_asin_1_rating&pd_rd_w=gBAhW&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=HfMHF&pd_rd_r=6fd10db2-1b31-40bc-9a35-2b7d5e007257#customerReviews
+  - text: 4.2 out of 5 stars. 1,784
+- button "Leave feedback on Sponsored ad": Sponsored
+- text: Showing products with fast delivery
+- link "See all products, across price ranges.":
+  - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&crid=1IF8YQCBZPG9R&nsdOptOutParam=true&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=nb_sb_ss_mvt-t11-ranker_6_24
+- heading "Results" [level=2]
+- text: Check each product page for other buying options.
+- list:
+  - listitem:
+    - group "Amazon's Choice for \"samsung galaxy s24 ultra 5+g cover\""
+    - link "TheGiftKart Hybrid Matte Frosted Back Cover Case for Samsung Galaxy S24 Ultra 5G Compatible with MagSafe | Built-In Stand | ShockProof Hard Cover for Samsung S24 Ultra 5G (PC & TPU, Translucent Black)":
+      - /url: /TheGiftKart-Frosted-Compatible-ShockProof-Translucent/dp/B0DR7382M3/ref=sr_1_1?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-1
+      - heading "TheGiftKart Hybrid Matte Frosted Back Cover Case for Samsung Galaxy S24 Ultra 5G Compatible with MagSafe | Built-In Stand | ShockProof Hard Cover for Samsung S24 Ultra 5G (PC & TPU, Translucent Black)" [level=2]
+    - button "4.3 out of 5 stars, rating details"
+    - link "378 ratings":
+      - /url: /TheGiftKart-Frosted-Compatible-ShockProof-Translucent/dp/B0DR7382M3/ref=sr_1_1?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-1#customerReviews
+    - text: 500+ bought in past month Price, product page
+    - 'link "₹549 M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /TheGiftKart-Frosted-Compatible-ShockProof-Translucent/dp/B0DR7382M3/ref=sr_1_1?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-1
+    - text: (45% off) Save ₹50 with coupon
+    - img "Amazon Prime"
+    - text: FREE delivery Sat, 12 Jul Or fastest delivery Tomorrow, 11 Jul
+    - button "Add to cart"
+    - button "Black"
+    - button "Clear"
+    - button "Transparent"
+  - listitem:
+    - link "TheGiftKart Hybrid Back Cover Case for Samsung Galaxy S24 Ultra 5G Compatible with MagSafe | Built-In Stand | ShockProof Hard Case Cover for Samsung S24 Ultra (PC & TPU, Clear Back, Transparent Sides)":
+      - /url: /TheGiftKart-Samsung-Compatible-ShockProof-Transparent/dp/B0DQLDCNQ2/ref=sr_1_2?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-2
+      - heading "TheGiftKart Hybrid Back Cover Case for Samsung Galaxy S24 Ultra 5G Compatible with MagSafe | Built-In Stand | ShockProof Hard Case Cover for Samsung S24 Ultra (PC & TPU, Clear Back, Transparent Sides)" [level=2]
+    - button "4.3 out of 5 stars, rating details"
+    - link "378 ratings":
+      - /url: /TheGiftKart-Samsung-Compatible-ShockProof-Transparent/dp/B0DQLDCNQ2/ref=sr_1_2?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-2#customerReviews
+    - text: 200+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹699 M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /TheGiftKart-Samsung-Compatible-ShockProof-Transparent/dp/B0DQLDCNQ2/ref=sr_1_2?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-2
+    - text: (30% off) Buy 2 items, get 4% off
+    - img "Amazon Prime"
+    - text: FREE delivery Sat, 12 Jul Or fastest delivery Tomorrow, 11 Jul
+    - button "Add to cart"
+    - button "Clear"
+    - button "Black"
+    - button "Transparent"
+  - listitem:
+    - link "Nillkin Polycarbonate Galaxy S24 Ultra Case,Camshield Pro for Samsung Galaxy S24 Ultra Case with Slide Camera Cover,S24 Ultra 5G Slim Case Phone Case 2024 6.8'' (Black)":
+      - /url: /Nillkin-Galaxy-CamShield-Pro-Samsung/dp/B0CNCXBXTH/ref=sr_1_3?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-3
+      - heading "Nillkin Polycarbonate Galaxy S24 Ultra Case,Camshield Pro for Samsung Galaxy S24 Ultra Case with Slide Camera Cover,S24 Ultra 5G Slim Case Phone Case 2024 6.8'' (Black)" [level=2]
+    - button "4.3 out of 5 stars, rating details"
+    - link "360 ratings":
+      - /url: /Nillkin-Galaxy-CamShield-Pro-Samsung/dp/B0CNCXBXTH/ref=sr_1_3?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-3#customerReviews
+    - text: 300+ bought in past month Price, product page
+    - 'link "₹899 ( ₹89,900 /100 g) M.R.P: ₹2,999 M.R.P: ₹2,999"':
+      - /url: /Nillkin-Galaxy-CamShield-Pro-Samsung/dp/B0CNCXBXTH/ref=sr_1_3?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-3
+    - text: (70% off) Up to 5% back with Amazon Pay ICICI card
+    - img "Amazon Prime"
+    - text: FREE delivery Sat, 12 Jul
+    - button "Add to cart"
+- link "Sponsored video; click to navigate to featured product page. TheGiftKart Hybrid Back Cover Case for Samsung Galaxy S24 Ultra 5G Compatible with MagSafe | Shockproof Design | Hard Transparent Back Cover Case for Samsung Galaxy S24 Ultra (PC & TPU, Clear Sides)":
+  - /url: https://aax-eu.amazon.in/x/c/JBkhoHeWYq7bD4o6snRY_ewAAAGX8r0LCAMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCmw-1N/clv1_CEuOPUxokZA0iHrVddwCzC6NcnFhTqENtZUe5DCk9bIq4X8L6Wulavw18HHz9hvVjq0yzpNb3X7OfU0UAGcAKHNMOC3MJMvpD1o1Z0NoWlePHtcjlEfB8IkGXCQSUOW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUezKYPqqRncpBw-RsXN34saLQMeGkBPpN-uh0XWILlI8C-9FHE6Fj0W5fDGy7yyiJpbYGWFCZYxY3qVSMj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq86WXy4dCTTLqaFKWEG2vEWUYQR5WaRd-NWXKXNt_6mgwAGvbmtDCdGXvtFS_CF8CoIymgGwjQSZ6zz9CBRvUEkOcgmDU2TPNZf2bSaWBD9t80ENAnfyX2DZEaVnuuFlcRCdkrZwltwGIyffMSBcrRFM49kMurj5gHo1hoWBxbIZR1XV_iKvQa2fJW9nb8AfMStczvpjNpsTiQkx75fYN0lYeHoEifl-wL8qJRcQQAP4p1MjpBbbfuR91Dsy5nRbnu0oxvMFIFXoNX06_obfD_jE4pyaAGEtQCTWrhDDbPdr8BJm-NIGG4Cpvf5vKwPIpG7x7xLCM3TuASh2rzfNL3VYn-NgSMUsZBWi21ogFNBtg2Bls6eKUmO6cPi6TFcXwAHKpNZ2dNBMpsGMm0g2uu2FSrqkkt6CnXCPgmfH1m4R4wjVjGSt5gPKo9o_p_UEhyjvMNESTd8lMN6I3vqFpxdUMBwIBwL2uSDZiDJGM3IkRE5aWhzGz2CBtii_RYHq-YWYgP_QuGmXUN9qbduffKf5x3mRcC1WKfUfYRJyanJIeYfS0D_HaHc9IT_Yxbl2xARsXrk12oKq7Rh4jC5tMfOq-Vdd_INcrhBxdEGMZ7KwBG3aUb0nPNRgb22hRYyTKwk6MIWCBcCioO_YdhP05J5yXuoVCgJrOb2eMnavKOJ0rV1cB4OpouvUkeA_cdbEtgo5NcV6insdUHoHBPn0ICLgF7cfvbLGvYCx9hyG00T25pYjijJFYMskJV-OJlat3GmHfTQJ_FmHIuO_68lb7rZA1xis07NiIUvhKg88fn-K3kaijxsFC7bKWLwhm9CMSHPpY7BoB4QWjmsAx6pUrYeJ7iytmmuSMs7waetKT_PC9vkesByc1ZwzEqckTxT-00jN2-EnaH5_xp_N7Ncgwmx-Y-tVN9sP4LMhtnmmXAOqsPmJEnG8YbZFPQDRXiqSaxTOYB4uDY-YXK2KhT-oGnFR67YJzabtp2pySg1IwpYcJcB3Lj_4Kwas0QQZDHncuoK5pzzlFC_gaW-VpBGwG88TyL4s9oo59F0QkE_EHESDOl9MwpgNg4yji1CpdzhoLeJrEJfhSdoWODXIv_f7Ix6-Bk6oFZhAseO_18mcwZ2ORIR6COQyjupOf9_iO0382bHWbezlHRpWawBl7O787bgj25mVw23hkuXMPkrkGjX1nD1z5XxlYYGHQijjJmf7wYQpU1GAuwBP6YFWRyTaLxw0d8rvQC6bwmY6vktNwy9BlvvCAevIRAoPKXWGXuUsNabSy6v0qe1ULz-rkn4a6njY9dkPaWrChFWyzvbW3f1JNtBewn7UAsEu84kV0Aampr17XLhpcJFZ0Eg2EdOwxFXUPP6rJQyO9NKDDJ2JqbUrmuMAZuHt9rAxlisVYP5cN5or5N7lBUKDJY7Rko5Ke8ilc_lsQVhXnhpjS7-m_9nNzwMMdYGW5_kRnfTSWTEHsZL6E2AhKGWt41kEXl1s4cUuRosAjj6d/https://www.amazon.in/dp/B0DP58N5N9?pd_rd_i=B0DP58N5N9&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=fqbiI&pd_rd_w=Zwcmc&pd_rd_r=b7e81bf1-5fb3-479e-9c7a-32a669fe4369
+- text: Sponsored
+- link "TheGiftKart Hybrid Back Cover Case for Samsung Galaxy S24 Ultra 5G Compatible with MagSafe | Shockproof Design | Hard Transparent Back Cover Case for Samsung Galaxy S24 Ultra (PC & TPU, Clear Sides)":
+  - /url: https://aax-eu.amazon.in/x/c/JBkhoHeWYq7bD4o6snRY_ewAAAGX8r0LCAMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCmw-1N/clv1_CEuOPUxokZA0iHrVddwCzC6NcnFhTqENtZUe5DCk9bIq4X8L6Wulavw18HHz9hvVjq0yzpNb3X7OfU0UAGcAKHNMOC3MJMvpD1o1Z0NoWlePHtcjlEfB8IkGXCQSUOW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUezKYPqqRncpBw-RsXN34saLQMeGkBPpN-uh0XWILlI8C-9FHE6Fj0W5fDGy7yyiJpbYGWFCZYxY3qVSMj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq86WXy4dCTTLqaFKWEG2vEWUYQR5WaRd-NWXKXNt_6mgwAGvbmtDCdGXvtFS_CF8CoIymgGwjQSZ6zz9CBRvUEkOcgmDU2TPNZf2bSaWBD9t80ENAnfyX2DZEaVnuuFlcRCdkrZwltwGIyffMSBcrRFM49kMurj5gHo1hoWBxbIZR1XV_iKvQa2fJW9nb8AfMStczvpjNpsTiQkx75fYN0lYeHoEifl-wL8qJRcQQAP4p1MjpBbbfuR91Dsy5nRbnu0oxvMFIFXoNX06_obfD_jE4pyaAGEtQCTWrhDDbPdr8BJm-NIGG4Cpvf5vKwPIpG7x7xLCM3TuASh2rzfNL3VYn-NgSMUsZBWi21ogFNBtg2Bls6eKUmO6cPi6TFcXwAHKpNZ2dNBMpsGMm0g2uu2FSrqkkt6CnXCPgmfH1m4R4wjVjGSt5gPKo9o_p_UEhyjvMNESTd8lMN6I3vqFpxdUMBwIBwL2uSDZiDJGM3IkRE5aWhzGz2CBtii_RYHq-YWYgP_QuGmXUN9qbduffKf5x3mRcC1WKfUfYRJyanJIeYfS0D_HaHc9IT_Yxbl2xARsXrk12oKq7Rh4jC5tMfOq-Vdd_INcrhBxdEGMZ7KwBG3aUb0nPNRgb22hRYyTKwk6MIWCBcCioO_YdhP05J5yXuoVCgJrOb2eMnavKOJ0rV1cB4OpouvUkeA_cdbEtgo5NcV6insdUHoHBPn0ICLgF7cfvbLGvYCx9hyG00T25pYjijJFYMskJV-OJlat3GmHfTQJ_FmHIuO_68lb7rZA1xis07NiIUvhKg88fn-K3kaijxsFC7bKWLwhm9CMSHPpY7BoB4QWjmsAx6pUrYeJ7iytmmuSMs7waetKT_PC9vkesByc1ZwzEqckTxT-00jN2-EnaH5_xp_N7Ncgwmx-Y-tVN9sP4LMhtnmmXAOqsPmJEnG8YbZFPQDRXiqSaxTOYB4uDY-YXK2KhT-oGnFR67YJzabtp2pySg1IwpYcJcB3Lj_4Kwas0QQZDHncuoK5pzzlFC_gaW-VpBGwG88TyL4s9oo59F0QkE_EHESDOl9MwpgNg4yji1CpdzhoLeJrEJfhSdoWODXIv_f7Ix6-Bk6oFZhAseO_18mcwZ2ORIR6COQyjupOf9_iO0382bHWbezlHRpWawBl7O787bgj25mVw23hkuXMPkrkGjX1nD1z5XxlYYGHQijjJmf7wYQpU1GAuwBP6YFWRyTaLxw0d8rvQC6bwmY6vktNwy9BlvvCAevIRAoPKXWGXuUsNabSy6v0qe1ULz-rkn4a6njY9dkPaWrChFWyzvbW3f1JNtBewn7UAsEu84kV0Aampr17XLhpcJFZ0Eg2EdOwxFXUPP6rJQyO9NKDDJ2JqbUrmuMAZuHt9rAxlisVYP5cN5or5N7lBUKDJY7Rko5Ke8ilc_lsQVhXnhpjS7-m_9nNzwMMdYGW5_kRnfTSWTEHsZL6E2AhKGWt41kEXl1s4cUuRosAjj6d/https://www.amazon.in/TheGiftKart-Samsung-Compatible-Shockproof-Transparent/dp/B0DP58N5N9/ref=sxin_15_sbv_search_btf?content-id=amzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6%3Aamzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6&crid=1IF8YQCBZPG9R&cv_ct_cx=samsung+galaxy+s24+ultra+5%2Bg+cover&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&pd_rd_i=B0DP58N5N9&pd_rd_r=b7e81bf1-5fb3-479e-9c7a-32a669fe4369&pd_rd_w=Zwcmc&pd_rd_wg=fqbiI&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&qid=1752124164&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81
+  - heading "TheGiftKart Hybrid Back Cover Case for Samsung Galaxy S24 Ultra 5G Compatible with MagSafe | Shockproof Design | Hard Transparent Back Cover Case for Samsung Galaxy S24 Ultra (PC & TPU, Clear Sides)" [level=2]
+- button "4.3 out of 5 stars, rating details"
+- link "57 ratings":
+  - /url: https://aax-eu.amazon.in/x/c/JBkhoHeWYq7bD4o6snRY_ewAAAGX8r0LCAMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCmw-1N/clv1_CEuOPUxokZA0iHrVddwCzC6NcnFhTqENtZUe5DCk9bIq4X8L6Wulavw18HHz9hvVjq0yzpNb3X7OfU0UAGcAKHNMOC3MJMvpD1o1Z0NoWlePHtcjlEfB8IkGXCQSUOW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUezKYPqqRncpBw-RsXN34saLQMeGkBPpN-uh0XWILlI8C-9FHE6Fj0W5fDGy7yyiJpbYGWFCZYxY3qVSMj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq86WXy4dCTTLqaFKWEG2vEWUYQR5WaRd-NWXKXNt_6mgwAGvbmtDCdGXvtFS_CF8CoIymgGwjQSZ6zz9CBRvUEkOcgmDU2TPNZf2bSaWBD9t80ENAnfyX2DZEaVnuuFlcRCdkrZwltwGIyffMSBcrRFM49kMurj5gHo1hoWBxbIZR1XV_iKvQa2fJW9nb8AfMStczvpjNpsTiQkx75fYN0lYeHoEifl-wL8qJRcQQAP4p1MjpBbbfuR91Dsy5nRbnu0oxvMFIFXoNX06_obfD_jE4pyaAGEtQCTWrhDDbPdr8BJm-NIGG4Cpvf5vKwPIpG7x7xLCM3TuASh2rzfNL3VYn-NgSMUsZBWi21ogFNBtg2Bls6eKUmO6cPi6TFcXwAHKpNZ2dNBMpsGMm0g2uu2FSrqkkt6CnXCPgmfH1m4R4wjVjGSt5gPKo9o_p_UEhyjvMNESTd8lMN6I3vqFpxdUMBwIBwL2uSDZiDJGM3IkRE5aWhzGz2CBtii_RYHq-YWYgP_QuGmXUN9qbduffKf5x3mRcC1WKfUfYRJyanJIeYfS0D_HaHc9IT_Yxbl2xARsXrk12oKq7Rh4jC5tMfOq-Vdd_INcrhBxdEGMZ7KwBG3aUb0nPNRgb22hRYyTKwk6MIWCBcCioO_YdhP05J5yXuoVCgJrOb2eMnavKOJ0rV1cB4OpouvUkeA_cdbEtgo5NcV6insdUHoHBPn0ICLgF7cfvbLGvYCx9hyG00T25pYjijJFYMskJV-OJlat3GmHfTQJ_FmHIuO_68lb7rZA1xis07NiIUvhKg88fn-K3kaijxsFC7bKWLwhm9CMSHPpY7BoB4QWjmsAx6pUrYeJ7iytmmuSMs7waetKT_PC9vkesByc1ZwzEqckTxT-00jN2-EnaH5_xp_N7Ncgwmx-Y-tVN9sP4LMhtnmmXAOqsPmJEnG8YbZFPQDRXiqSaxTOYB4uDY-YXK2KhT-oGnFR67YJzabtp2pySg1IwpYcJcB3Lj_4Kwas0QQZDHncuoK5pzzlFC_gaW-VpBGwG88TyL4s9oo59F0QkE_EHESDOl9MwpgNg4yji1CpdzhoLeJrEJfhSdoWODXIv_f7Ix6-Bk6oFZhAseO_18mcwZ2ORIR6COQyjupOf9_iO0382bHWbezlHRpWawBl7O787bgj25mVw23hkuXMPkrkGjX1nD1z5XxlYYGHQijjJmf7wYQpU1GAuwBP6YFWRyTaLxw0d8rvQC6bwmY6vktNwy9BlvvCAevIRAoPKXWGXuUsNabSy6v0qe1ULz-rkn4a6njY9dkPaWrChFWyzvbW3f1JNtBewn7UAsEu84kV0Aampr17XLhpcJFZ0Eg2EdOwxFXUPP6rJQyO9NKDDJ2JqbUrmuMAZuHt9rAxlisVYP5cN5or5N7lBUKDJY7Rko5Ke8ilc_lsQVhXnhpjS7-m_9nNzwMMdYGW5_kRnfTSWTEHsZL6E2AhKGWt41kEXl1s4cUuRosAjj6d/https://www.amazon.in/TheGiftKart-Samsung-Compatible-Shockproof-Transparent/dp/B0DP58N5N9/ref=sxin_15_sbv_search_btf?content-id=amzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6%3Aamzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6&crid=1IF8YQCBZPG9R&cv_ct_cx=samsung+galaxy+s24+ultra+5%2Bg+cover&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&pd_rd_i=B0DP58N5N9&pd_rd_r=b7e81bf1-5fb3-479e-9c7a-32a669fe4369&pd_rd_w=Zwcmc&pd_rd_wg=fqbiI&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&qid=1752124164&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81#customerReviews
+- text: 200+ bought in past month Price, product page
+- 'link "₹251 M.R.P: ₹999 M.R.P: ₹999"':
+  - /url: https://aax-eu.amazon.in/x/c/JBkhoHeWYq7bD4o6snRY_ewAAAGX8r0LCAMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCmw-1N/clv1_CEuOPUxokZA0iHrVddwCzC6NcnFhTqENtZUe5DCk9bIq4X8L6Wulavw18HHz9hvVjq0yzpNb3X7OfU0UAGcAKHNMOC3MJMvpD1o1Z0NoWlePHtcjlEfB8IkGXCQSUOW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUezKYPqqRncpBw-RsXN34saLQMeGkBPpN-uh0XWILlI8C-9FHE6Fj0W5fDGy7yyiJpbYGWFCZYxY3qVSMj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq86WXy4dCTTLqaFKWEG2vEWUYQR5WaRd-NWXKXNt_6mgwAGvbmtDCdGXvtFS_CF8CoIymgGwjQSZ6zz9CBRvUEkOcgmDU2TPNZf2bSaWBD9t80ENAnfyX2DZEaVnuuFlcRCdkrZwltwGIyffMSBcrRFM49kMurj5gHo1hoWBxbIZR1XV_iKvQa2fJW9nb8AfMStczvpjNpsTiQkx75fYN0lYeHoEifl-wL8qJRcQQAP4p1MjpBbbfuR91Dsy5nRbnu0oxvMFIFXoNX06_obfD_jE4pyaAGEtQCTWrhDDbPdr8BJm-NIGG4Cpvf5vKwPIpG7x7xLCM3TuASh2rzfNL3VYn-NgSMUsZBWi21ogFNBtg2Bls6eKUmO6cPi6TFcXwAHKpNZ2dNBMpsGMm0g2uu2FSrqkkt6CnXCPgmfH1m4R4wjVjGSt5gPKo9o_p_UEhyjvMNESTd8lMN6I3vqFpxdUMBwIBwL2uSDZiDJGM3IkRE5aWhzGz2CBtii_RYHq-YWYgP_QuGmXUN9qbduffKf5x3mRcC1WKfUfYRJyanJIeYfS0D_HaHc9IT_Yxbl2xARsXrk12oKq7Rh4jC5tMfOq-Vdd_INcrhBxdEGMZ7KwBG3aUb0nPNRgb22hRYyTKwk6MIWCBcCioO_YdhP05J5yXuoVCgJrOb2eMnavKOJ0rV1cB4OpouvUkeA_cdbEtgo5NcV6insdUHoHBPn0ICLgF7cfvbLGvYCx9hyG00T25pYjijJFYMskJV-OJlat3GmHfTQJ_FmHIuO_68lb7rZA1xis07NiIUvhKg88fn-K3kaijxsFC7bKWLwhm9CMSHPpY7BoB4QWjmsAx6pUrYeJ7iytmmuSMs7waetKT_PC9vkesByc1ZwzEqckTxT-00jN2-EnaH5_xp_N7Ncgwmx-Y-tVN9sP4LMhtnmmXAOqsPmJEnG8YbZFPQDRXiqSaxTOYB4uDY-YXK2KhT-oGnFR67YJzabtp2pySg1IwpYcJcB3Lj_4Kwas0QQZDHncuoK5pzzlFC_gaW-VpBGwG88TyL4s9oo59F0QkE_EHESDOl9MwpgNg4yji1CpdzhoLeJrEJfhSdoWODXIv_f7Ix6-Bk6oFZhAseO_18mcwZ2ORIR6COQyjupOf9_iO0382bHWbezlHRpWawBl7O787bgj25mVw23hkuXMPkrkGjX1nD1z5XxlYYGHQijjJmf7wYQpU1GAuwBP6YFWRyTaLxw0d8rvQC6bwmY6vktNwy9BlvvCAevIRAoPKXWGXuUsNabSy6v0qe1ULz-rkn4a6njY9dkPaWrChFWyzvbW3f1JNtBewn7UAsEu84kV0Aampr17XLhpcJFZ0Eg2EdOwxFXUPP6rJQyO9NKDDJ2JqbUrmuMAZuHt9rAxlisVYP5cN5or5N7lBUKDJY7Rko5Ke8ilc_lsQVhXnhpjS7-m_9nNzwMMdYGW5_kRnfTSWTEHsZL6E2AhKGWt41kEXl1s4cUuRosAjj6d/https://www.amazon.in/TheGiftKart-Samsung-Compatible-Shockproof-Transparent/dp/B0DP58N5N9/ref=sxin_15_sbv_search_btf?content-id=amzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6%3Aamzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6&crid=1IF8YQCBZPG9R&cv_ct_cx=samsung+galaxy+s24+ultra+5%2Bg+cover&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&pd_rd_i=B0DP58N5N9&pd_rd_r=b7e81bf1-5fb3-479e-9c7a-32a669fe4369&pd_rd_w=Zwcmc&pd_rd_wg=fqbiI&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&qid=1752124164&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81
+- text: (75% off) Buy 2 items, get 4% off FREE delivery Sat, 12 Jul on first order Or fastest delivery Tomorrow, 11 Jul
+- heading "More results" [level=2]
+- list:
+  - listitem:
+    - link "TheGiftKart Sleek Back Cover Case for Samsung Galaxy S24 Ultra 5G | Slim Fit Protective Design | Ultra Matte Finish | Camera Protection Bump | Soft Back Cover for Samsung S24 Ultra (Silicone, Black)":
+      - /url: /TheGiftKart-Samsung-S24-5G-Ultra/dp/B0CR7GJJZZ/ref=sr_1_4?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-4
+      - heading "TheGiftKart Sleek Back Cover Case for Samsung Galaxy S24 Ultra 5G | Slim Fit Protective Design | Ultra Matte Finish | Camera Protection Bump | Soft Back Cover for Samsung S24 Ultra (Silicone, Black)" [level=2]
+    - button "4.2 out of 5 stars, rating details"
+    - link "119 ratings":
+      - /url: /TheGiftKart-Samsung-S24-5G-Ultra/dp/B0CR7GJJZZ/ref=sr_1_4?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-4#customerReviews
+    - text: 50+ bought in past month Price, product page
+    - 'link "₹269 M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /TheGiftKart-Samsung-S24-5G-Ultra/dp/B0CR7GJJZZ/ref=sr_1_4?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-4
+    - text: (73% off) Up to 5% back with Amazon Pay ICICI card FREE delivery Sat, 12 Jul on first order Or fastest delivery Tomorrow, 11 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "TheGiftKart Hybrid Ultimate Slim Back Case Cover for Samsung Galaxy S24 Ultra 5G | Camera & Screen Protection | Frosted Matte Translucent Hard Back Cover for Samsung S24 Ultra (PC & TPU, Black Bumper)":
+      - /url: /TheGiftKart-Ultimate-Samsung-Protection-Translucent/dp/B0DR75DLHD/ref=sr_1_5?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-5
+      - heading "TheGiftKart Hybrid Ultimate Slim Back Case Cover for Samsung Galaxy S24 Ultra 5G | Camera & Screen Protection | Frosted Matte Translucent Hard Back Cover for Samsung S24 Ultra (PC & TPU, Black Bumper)" [level=2]
+    - button "4.0 out of 5 stars, rating details"
+    - link "111 ratings":
+      - /url: /TheGiftKart-Ultimate-Samsung-Protection-Translucent/dp/B0DR75DLHD/ref=sr_1_5?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-5#customerReviews
+    - text: 300+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹297 M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /TheGiftKart-Ultimate-Samsung-Protection-Translucent/dp/B0DR75DLHD/ref=sr_1_5?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-5
+    - text: (70% off) Buy 2 items, get 4% off FREE delivery Sat, 12 Jul on first order Or fastest delivery Tomorrow, 11 Jul
+    - button "Add to cart"
+    - button "Black"
+    - button "Black (With Mag-Safe)"
+  - listitem:
+    - link "TheGiftKart Hybrid Back Cover Case for Samsung Galaxy S24 Ultra 5G Compatible with MagSafe | Shockproof Design | Hard Transparent Back Cover Case for Samsung Galaxy S24 Ultra (PC & TPU, Clear Sides)":
+      - /url: /TheGiftKart-Samsung-Compatible-Shockproof-Transparent/dp/B0DP58N5N9/ref=sr_1_6?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-6
+      - heading "TheGiftKart Hybrid Back Cover Case for Samsung Galaxy S24 Ultra 5G Compatible with MagSafe | Shockproof Design | Hard Transparent Back Cover Case for Samsung Galaxy S24 Ultra (PC & TPU, Clear Sides)" [level=2]
+    - button "4.3 out of 5 stars, rating details"
+    - link "57 ratings":
+      - /url: /TheGiftKart-Samsung-Compatible-Shockproof-Transparent/dp/B0DP58N5N9/ref=sr_1_6?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-6#customerReviews
+    - text: 200+ bought in past month Price, product page
+    - 'link "₹251 M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /TheGiftKart-Samsung-Compatible-Shockproof-Transparent/dp/B0DP58N5N9/ref=sr_1_6?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-6
+    - text: (75% off) Buy 2 items, get 4% off FREE delivery Sat, 12 Jul on first order Or fastest delivery Tomorrow, 11 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "TheGiftKart Ultra-Hybrid Clear Back Cover Case for Samsung Galaxy S24 Ultra 5G | Shockproof Design | Camera Protection Bump | Transparent Back Cover for Samsung S24 Ultra 5G (PC & TPU, Black Bumper)":
+      - /url: /TheGiftKart-Ultra-Hybrid-Samsung-S24-Ultra/dp/B0CR7GMJJC/ref=sr_1_7?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-7
+      - heading "TheGiftKart Ultra-Hybrid Clear Back Cover Case for Samsung Galaxy S24 Ultra 5G | Shockproof Design | Camera Protection Bump | Transparent Back Cover for Samsung S24 Ultra 5G (PC & TPU, Black Bumper)" [level=2]
+    - button "4.3 out of 5 stars, rating details"
+    - link "128 ratings":
+      - /url: /TheGiftKart-Ultra-Hybrid-Samsung-S24-Ultra/dp/B0CR7GMJJC/ref=sr_1_7?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-7#customerReviews
+    - text: 50+ bought in past month Price, product page
+    - 'link "₹369 M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /TheGiftKart-Ultra-Hybrid-Samsung-S24-Ultra/dp/B0CR7GMJJC/ref=sr_1_7?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-7
+    - text: (63% off) Buy 2 items, get 4% off FREE delivery Sat, 12 Jul on first order Or fastest delivery Tomorrow, 11 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "Solimo Basic Case for Samsung Galaxy S24 Ultra (Silicone_Clear)":
+      - /url: /Amazon-Brand-Samsung-Silicone-Transparent/dp/B0CTQSRHS1/ref=sr_1_8?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-8
+      - heading "Solimo Basic Case for Samsung Galaxy S24 Ultra (Silicone_Clear)" [level=2]
+    - button "3.7 out of 5 stars, rating details"
+    - link "303 ratings":
+      - /url: /Amazon-Brand-Samsung-Silicone-Transparent/dp/B0CTQSRHS1/ref=sr_1_8?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-8#customerReviews
+    - text: 300+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹99 M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /Amazon-Brand-Samsung-Silicone-Transparent/dp/B0CTQSRHS1/ref=sr_1_8?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-8
+    - text: (90% off) Up to 5% back with Amazon Pay ICICI card FREE delivery Sat, 12 Jul on first order
+    - button "Add to cart"
+  - listitem:
+    - link "Spigen Liquid Air for Samsung Galaxy S24 Ultra Case, Galaxy S24 Ultra Back Cover (2024) - TPU｜Deep Purple":
+      - /url: /Spigen-Liquid-Compatible-Galaxy-Purple/dp/B0CNFBF58P/ref=sr_1_9?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-9
+      - heading "Spigen Liquid Air for Samsung Galaxy S24 Ultra Case, Galaxy S24 Ultra Back Cover (2024) - TPU｜Deep Purple" [level=2]
+    - button "4.3 out of 5 stars, rating details"
+    - link "5,765 ratings":
+      - /url: /Spigen-Liquid-Compatible-Galaxy-Purple/dp/B0CNFBF58P/ref=sr_1_9?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-9#customerReviews
+    - text: 100+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹1,199 M.R.P: ₹1,799 M.R.P: ₹1,799"':
+      - /url: /Spigen-Liquid-Compatible-Galaxy-Purple/dp/B0CNFBF58P/ref=sr_1_9?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-9
+    - text: (33% off) Up to 5% back with Amazon Pay ICICI card
+    - img "Amazon Prime"
+    - text: FREE delivery Sat, 12 Jul Or fastest delivery Tomorrow, 11 Jul
+    - button "Add to cart"
+    - button "Deep Purple"
+    - button "Abyss Green"
+    - button "Marble Gray"
+    - button "Matte Black"
+  - listitem:
+    - link "TheGiftKart Ultra-Hybrid Clear Back Case Cover for Samsung Galaxy S24 Ultra 5G | Shockproof Design | Camera Protection Bump | Hard Clear Back Cover for Samsung S24 Ultra 5G (PC & TPU, Transparent)":
+      - /url: /TheGiftKart-Ultra-Hybrid-Samsung-S24-Ultra/dp/B0CR7GGKHH/ref=sr_1_10?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-10
+      - heading "TheGiftKart Ultra-Hybrid Clear Back Case Cover for Samsung Galaxy S24 Ultra 5G | Shockproof Design | Camera Protection Bump | Hard Clear Back Cover for Samsung S24 Ultra 5G (PC & TPU, Transparent)" [level=2]
+    - button "4.3 out of 5 stars, rating details"
+    - link "378 ratings":
+      - /url: /TheGiftKart-Ultra-Hybrid-Samsung-S24-Ultra/dp/B0CR7GGKHH/ref=sr_1_10?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-10#customerReviews
+    - text: 200+ bought in past month Price, product page
+    - 'link "₹349 M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /TheGiftKart-Ultra-Hybrid-Samsung-S24-Ultra/dp/B0CR7GGKHH/ref=sr_1_10?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-10
+    - text: (65% off) Up to 5% back with Amazon Pay ICICI card FREE delivery Sat, 12 Jul on first order Or fastest delivery Tomorrow, 11 Jul
+    - button "Add to cart"
+    - button "Transparent"
+    - button "Black"
+    - button "Clear"
+  - listitem:
+    - link "VONZEE Compatible with Samsung Galaxy S24 Ultra 5G Case Luxury Retro Flowers Floral Clear for Magnetic Wireless Charging Case Shockproof PC+TPU Cute Glossy Shiny Cover for Girls Women, Official Blue":
+      - /url: /VONZEE-Compatible-Magnetic-Wireless-Shockproof/dp/B0DSJ1J9SR/ref=sr_1_11?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-11
+      - heading "VONZEE Compatible with Samsung Galaxy S24 Ultra 5G Case Luxury Retro Flowers Floral Clear for Magnetic Wireless Charging Case Shockproof PC+TPU Cute Glossy Shiny Cover for Girls Women, Official Blue" [level=2]
+    - button "4.0 out of 5 stars, rating details"
+    - link "281 ratings":
+      - /url: /VONZEE-Compatible-Magnetic-Wireless-Shockproof/dp/B0DSJ1J9SR/ref=sr_1_11?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-11#customerReviews
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹275 M.R.P: ₹899 M.R.P: ₹899"':
+      - /url: /VONZEE-Compatible-Magnetic-Wireless-Shockproof/dp/B0DSJ1J9SR/ref=sr_1_11?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-11
+    - text: (69% off) Up to 5% back with Amazon Pay ICICI card FREE delivery Sat, 12 Jul on first order
+    - button "Add to cart"
+    - button "Official Blue"
+    - button "Black Titanium"
+    - button "Cobalt Blue"
+    - button "Deep Purple"
+    - button "Desert Titanium"
+    - button "Gold"
+    - link "+23":
+      - /url: /VONZEE-Compatible-Magnetic-Wireless-Shockproof/dp/B0DSJ1J9SR/ref=cs_sr_dp_n?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-11
+  - listitem:
+    - link "TheGiftKart Back Cover Soft Case for Samsung Galaxy S24 Ultra 5G | Best Camera Protection | Inbuilt Dust Plugs & Anti-Slip Grip | Ultra Slim Back Cover for Samsung S24 Ultra (Silicone, Transparent)":
+      - /url: /TheGiftKart-Samsung-S24-Ultra-Transparent/dp/B0CR7GJVLM/ref=sr_1_12?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-12
+      - heading "TheGiftKart Back Cover Soft Case for Samsung Galaxy S24 Ultra 5G | Best Camera Protection | Inbuilt Dust Plugs & Anti-Slip Grip | Ultra Slim Back Cover for Samsung S24 Ultra (Silicone, Transparent)" [level=2]
+    - button "4.0 out of 5 stars, rating details"
+    - link "224 ratings":
+      - /url: /TheGiftKart-Samsung-S24-Ultra-Transparent/dp/B0CR7GJVLM/ref=sr_1_12?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-12#customerReviews
+    - text: 50+ bought in past month Price, product page
+    - 'link "₹269 M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /TheGiftKart-Samsung-S24-Ultra-Transparent/dp/B0CR7GJVLM/ref=sr_1_12?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-12
+    - text: (73% off) Up to 5% back with Amazon Pay ICICI card FREE delivery Sat, 12 Jul on first order
+    - button "Add to cart"
+  - listitem:
+    - link "VONZEE Clear Logo Electroplating Transparent Case for Samsung Galaxy S24 Ultra 5G, [Support for MagSafe Charger] Electroplate Magnetic TPU Cover - Grey":
+      - /url: /VONZEE-Samsung-Galaxy-S24-Ultra/dp/B0CZ6RBCC5/ref=sr_1_13?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-13
+      - heading "VONZEE Clear Logo Electroplating Transparent Case for Samsung Galaxy S24 Ultra 5G, [Support for MagSafe Charger] Electroplate Magnetic TPU Cover - Grey" [level=2]
+    - button "4.0 out of 5 stars, rating details"
+    - link "281 ratings":
+      - /url: /VONZEE-Samsung-Galaxy-S24-Ultra/dp/B0CZ6RBCC5/ref=sr_1_13?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-13#customerReviews
+    - text: Price, product page
+    - 'link "₹299 M.R.P: ₹899 M.R.P: ₹899"':
+      - /url: /VONZEE-Samsung-Galaxy-S24-Ultra/dp/B0CZ6RBCC5/ref=sr_1_13?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-13
+    - text: (67% off) Up to 5% back with Amazon Pay ICICI card FREE delivery Sat, 12 Jul on first order
+    - button "Add to cart"
+    - button "Titanium Grey"
+    - button "Black Titanium"
+    - button "Cobalt Blue"
+    - button "Deep Purple"
+    - button "Desert Titanium"
+    - button "Gold"
+    - link "+23":
+      - /url: /VONZEE-Samsung-Galaxy-S24-Ultra/dp/B0CZ6RBCC5/ref=cs_sr_dp_n?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-13
+  - listitem:
+    - link "TheGiftKart Hybrid Ultimate Slim Back Case Cover for Samsung Galaxy S24 Ultra 5G | Frosted Matte Translucent Hard Back Case Cover for Samsung S24 Ultra 5G (PC & TPU, MagSafe Compatible, Black Sides)":
+      - /url: /TheGiftKart-Ultimate-Samsung-Translucent-Compatible/dp/B0DSQ5X4GY/ref=sr_1_14?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-14
+      - heading "TheGiftKart Hybrid Ultimate Slim Back Case Cover for Samsung Galaxy S24 Ultra 5G | Frosted Matte Translucent Hard Back Case Cover for Samsung S24 Ultra 5G (PC & TPU, MagSafe Compatible, Black Sides)" [level=2]
+    - button "4.0 out of 5 stars, rating details"
+    - link "111 ratings":
+      - /url: /TheGiftKart-Ultimate-Samsung-Translucent-Compatible/dp/B0DSQ5X4GY/ref=sr_1_14?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-14#customerReviews
+    - text: 50+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹497 M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /TheGiftKart-Ultimate-Samsung-Translucent-Compatible/dp/B0DSQ5X4GY/ref=sr_1_14?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-14
+    - text: (50% off) Buy 2 items, get 4% off FREE delivery Sat, 12 Jul on first order Or fastest delivery Tomorrow, 11 Jul
+    - button "Add to cart"
+    - button "Black (With Mag-Safe)"
+    - button "Black"
+  - listitem:
+    - link "Vihibii for Samsung Galaxy S24 Ultra Back Cover with Card Holder (4 Cards) & Slide Camera Cover & Kickstand, Rugged Hard Back & TPU Soft Edge Case for Galaxy S24 Ultra 5G 6.8\" 2024, Black":
+      - /url: /Vihibii-Samsung-Galaxy-Holder-Kickstand/dp/B0CR46TZRR/ref=sr_1_15?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-15
+      - heading "Vihibii for Samsung Galaxy S24 Ultra Back Cover with Card Holder (4 Cards) & Slide Camera Cover & Kickstand, Rugged Hard Back & TPU Soft Edge Case for Galaxy S24 Ultra 5G 6.8\" 2024, Black" [level=2]
+    - button "4.0 out of 5 stars, rating details"
+    - link "2,475 ratings":
+      - /url: /Vihibii-Samsung-Galaxy-Holder-Kickstand/dp/B0CR46TZRR/ref=sr_1_15?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-15#customerReviews
+    - text: 50+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹1,614 M.R.P: ₹2,499 M.R.P: ₹2,499"':
+      - /url: /Vihibii-Samsung-Galaxy-Holder-Kickstand/dp/B0CR46TZRR/ref=sr_1_15?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-15
+    - text: (35% off) Up to 5% back with Amazon Pay ICICI card
+    - img "Amazon Prime"
+    - text: FREE delivery Sat, 12 Jul Or fastest delivery Tomorrow, 11 Jul
+    - button "Add to cart"
+    - button "Black"
+    - button "Blue"
+    - button "Clear"
+    - button "Dark Purple"
+    - button "Green"
+    - button "Pink"
+    - link "+2":
+      - /url: /Vihibii-Samsung-Galaxy-Holder-Kickstand/dp/B0CR46TZRR/ref=cs_sr_dp_n?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-15
+  - listitem:
+    - link "TheGiftKart Crystal Clear Back Cover Case for Samsung Galaxy S24 Ultra 5G | 360 Degree Protection | Shock Proof Design | Transparent Back Cover for Samsung S24 Ultra 5G (PC & TPU, Transparent Bumper)":
+      - /url: /TheGiftKart-Samsung-S24-Transparent-Ultra/dp/B0CR7422HZ/ref=sr_1_16?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-16
+      - heading "TheGiftKart Crystal Clear Back Cover Case for Samsung Galaxy S24 Ultra 5G | 360 Degree Protection | Shock Proof Design | Transparent Back Cover for Samsung S24 Ultra 5G (PC & TPU, Transparent Bumper)" [level=2]
+    - button "3.6 out of 5 stars, rating details"
+    - link "79 ratings":
+      - /url: /TheGiftKart-Samsung-S24-Transparent-Ultra/dp/B0CR7422HZ/ref=sr_1_16?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-16#customerReviews
+    - text: 50+ bought in past month Price, product page
+    - 'link "₹299 M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /TheGiftKart-Samsung-S24-Transparent-Ultra/dp/B0CR7422HZ/ref=sr_1_16?crid=1IF8YQCBZPG9R&dib=eyJ2IjoiMSJ9.1nYxNRuupxGzjFJcxUNwVwp27VzfSxbM5UAETaz2XSD99Xnb5F2md-eWqTjG86DMjpAcwzT5kj0FVxMYK4lei3LPFhvZJS35iBK_AwsE5qm8mRNhYRYL7ARlz9MNlPdQJk2IGqKz8fKDu_ipD5oK_04YyC2SgfNxp_lZu8pSvo8PdqzQ6-yPPTQYWmgqxk7VjOEJKTGSV-aWSe2TWtIw7II2kHGLwzbTPLftWvk47Q8.BIXB9KYfnNYbQ5yK7wiB1IbyTL8GcQTaEME5QKjlE2U&dib_tag=se&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&qid=1752124164&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=8-16
+    - text: (70% off) Buy 2 items, get 4% off FREE delivery Sat, 12 Jul on first order Or fastest delivery Tomorrow, 11 Jul
+    - button "Add to cart"
+- link "Sponsored video; click to navigate to featured product page. TheGiftKart Hybrid Back Cover Case for Samsung Galaxy S24 Ultra 5G Compatible with MagSafe | Shockproof Design | Hard Transparent Back Cover Case for Samsung Galaxy S24 Ultra (PC & TPU, Clear Sides)":
+  - /url: https://aax-eu.amazon.in/x/c/JDwKmiKpIPl543UND31pbv8AAAGX8r0LBgMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICAViHLn/clv1_CEuOPUxokZA0iHrVYs40ygPJQ38-Yrw3uK5fzTK18_4z138L6Wulavw18HHz9hvVjq0yzpNb3X7OfU0UAGcAP2F6PgCIFcW2I0cPangpc1WeGJs6okfB8IkGXCQSUOW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUezXsNpqS-vcI9btjUe73yoLrINSrNOpF5etWYyQ-vo8C-9FHE6Fj0W5fDGy7yyiJpbYGWFCZYxY3qVSMj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq8-sXy4dCTTLqaFKWEG2vEWUYQR5WaRd-NWXKXNt_6mgwAGvbmtDCdaXvtFS_CF8CoIymgGwjQSZ6zz9CBRvUEkOcgmDU2TPNZf2bSaWBD9t80ENAnfyX2DZEaVnuuFlcRCdkrZwltwGIyffMSBcrRFM49kMurj5gHo1hoWBxbIZR1XV_iKvQa2fJW9nb8AfMStczvpjNpsTiQkx75fYN0lYeHoEifl-wL8qJRcQQAP4p1MjpBbbfuR91Dsy5nRbnu0oxvMFIFXoNX06_obfD_jE4pyaAGEtQCTWrhDDbPdr8BJm-NIGG4Cpvf5vKwPIpG7x7xLCM3TuASh2rzfNL3VYn-NgSMUsZBWi21ogFNBtg2Bls6eKUmO6cPi6TFcXwAHKpNZ2dNBMpsGMm0g2uu2FSrqkkt6CnXCPgmfH1m4R4wjVjGSt5gPKo9o_p_UEhyjvMNESTd8lMN6I3vqFpxdUMBwIBwL2uSDZiDJGM3IkRE5aWhzGz2CBtii_RYHq-YWYgP_QuGmXUN9qbduffKf5x3mRcC1WKfUfYRJyanJIeYfS0D_HaHc9IT_Yxbl2xARsXrk12oKq7Rh4jC5tMfOq-Vdd_INcrhBxdEGMZ7KwBG3aUb0nPNRgb22hRYyTKwk6MIWCBcCioO_YdhP05J5yXuoVCgJrOb2eMnavKOJ0rV1cB4OpouvUkeA_cdbEtgo5NcV6insdUHoHBPn0ICLgF7cfvbLGvYCx9hyG00T25pYjijJFYMskJV-OJlat3GmHfTQJ_FmHIuO_68lb7rZA1xis07NiIUvhKg88fn-K3kaijxsFC7bKWLwhm9CMSHPpY7BoB4QWjmsAx6pUrYeJ7iytmmuSMs7waetKT_PC9vkesByc1ZwzEqckTxT-00jN2-EnaH5_xp_N7Ncgwmx-Y-tVN9sP4LMhtnmmXAOqsPmJEnG8YbZFPQDRXiqSaxTOYB4uDY-YXK2KhT-oGn5R67YJzabtp2pySg1IwpYcJcB3Lj_4Kwas0QQZDHncuoK5pzzlFC_gaW-VpBGwG88TyL4s9oo59F0QkE_EHESDOl9MwpgNg4yji1CpdzhoLeJrEJfhSdoWODXIv_f7Ix6-Bk6oFZhAseO_18mcwZ2ORIR6COQyjupOf9_iO0382bHWbezlHRpWawBl7O787bgj25mVw23hkuXMPkrkGjX1nD1z5XxlYYGHQijjJmf7wYQpU1GAuwBP6YFWRyTaLxw0d8rvQC6bwmY6vktNwy9BlvvCAevIRAoPKXWGXuUsNabSy6v0qe1ULz-rkn4a6njY9dYPamvBhFWyzvbW3f1JNtBewn7UAsEu84kV0Aampr17XLhpcJFZ0Eg2EdOwxFXUPP6rJQyO9NKDDJ2JqbUrmuMAZuHt9rAxlisVYP5cN5or5N7lBUKDJY7Rko5Ke8ilc_lsQVhXnhpjS7-m_9nNzwMMdYGW5_kRnfTSWTEHsZL6E2AhKGVt4s79bVbh28UCbeSFFBBM/https://www.amazon.in/dp/B0DP58N5N9?pd_rd_i=B0DP58N5N9&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=yOmg3&pd_rd_w=h8uL8&pd_rd_r=a9710cd4-3434-4eff-b864-ccbe7e7559d7
+- text: Sponsored
+- link "TheGiftKart Hybrid Back Cover Case for Samsung Galaxy S24 Ultra 5G Compatible with MagSafe | Shockproof Design | Hard Transparent Back Cover Case for Samsung Galaxy S24 Ultra (PC & TPU, Clear Sides)":
+  - /url: https://aax-eu.amazon.in/x/c/JDwKmiKpIPl543UND31pbv8AAAGX8r0LBgMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICAViHLn/clv1_CEuOPUxokZA0iHrVYs40ygPJQ38-Yrw3uK5fzTK18_4z138L6Wulavw18HHz9hvVjq0yzpNb3X7OfU0UAGcAP2F6PgCIFcW2I0cPangpc1WeGJs6okfB8IkGXCQSUOW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUezXsNpqS-vcI9btjUe73yoLrINSrNOpF5etWYyQ-vo8C-9FHE6Fj0W5fDGy7yyiJpbYGWFCZYxY3qVSMj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq8-sXy4dCTTLqaFKWEG2vEWUYQR5WaRd-NWXKXNt_6mgwAGvbmtDCdaXvtFS_CF8CoIymgGwjQSZ6zz9CBRvUEkOcgmDU2TPNZf2bSaWBD9t80ENAnfyX2DZEaVnuuFlcRCdkrZwltwGIyffMSBcrRFM49kMurj5gHo1hoWBxbIZR1XV_iKvQa2fJW9nb8AfMStczvpjNpsTiQkx75fYN0lYeHoEifl-wL8qJRcQQAP4p1MjpBbbfuR91Dsy5nRbnu0oxvMFIFXoNX06_obfD_jE4pyaAGEtQCTWrhDDbPdr8BJm-NIGG4Cpvf5vKwPIpG7x7xLCM3TuASh2rzfNL3VYn-NgSMUsZBWi21ogFNBtg2Bls6eKUmO6cPi6TFcXwAHKpNZ2dNBMpsGMm0g2uu2FSrqkkt6CnXCPgmfH1m4R4wjVjGSt5gPKo9o_p_UEhyjvMNESTd8lMN6I3vqFpxdUMBwIBwL2uSDZiDJGM3IkRE5aWhzGz2CBtii_RYHq-YWYgP_QuGmXUN9qbduffKf5x3mRcC1WKfUfYRJyanJIeYfS0D_HaHc9IT_Yxbl2xARsXrk12oKq7Rh4jC5tMfOq-Vdd_INcrhBxdEGMZ7KwBG3aUb0nPNRgb22hRYyTKwk6MIWCBcCioO_YdhP05J5yXuoVCgJrOb2eMnavKOJ0rV1cB4OpouvUkeA_cdbEtgo5NcV6insdUHoHBPn0ICLgF7cfvbLGvYCx9hyG00T25pYjijJFYMskJV-OJlat3GmHfTQJ_FmHIuO_68lb7rZA1xis07NiIUvhKg88fn-K3kaijxsFC7bKWLwhm9CMSHPpY7BoB4QWjmsAx6pUrYeJ7iytmmuSMs7waetKT_PC9vkesByc1ZwzEqckTxT-00jN2-EnaH5_xp_N7Ncgwmx-Y-tVN9sP4LMhtnmmXAOqsPmJEnG8YbZFPQDRXiqSaxTOYB4uDY-YXK2KhT-oGn5R67YJzabtp2pySg1IwpYcJcB3Lj_4Kwas0QQZDHncuoK5pzzlFC_gaW-VpBGwG88TyL4s9oo59F0QkE_EHESDOl9MwpgNg4yji1CpdzhoLeJrEJfhSdoWODXIv_f7Ix6-Bk6oFZhAseO_18mcwZ2ORIR6COQyjupOf9_iO0382bHWbezlHRpWawBl7O787bgj25mVw23hkuXMPkrkGjX1nD1z5XxlYYGHQijjJmf7wYQpU1GAuwBP6YFWRyTaLxw0d8rvQC6bwmY6vktNwy9BlvvCAevIRAoPKXWGXuUsNabSy6v0qe1ULz-rkn4a6njY9dYPamvBhFWyzvbW3f1JNtBewn7UAsEu84kV0Aampr17XLhpcJFZ0Eg2EdOwxFXUPP6rJQyO9NKDDJ2JqbUrmuMAZuHt9rAxlisVYP5cN5or5N7lBUKDJY7Rko5Ke8ilc_lsQVhXnhpjS7-m_9nNzwMMdYGW5_kRnfTSWTEHsZL6E2AhKGVt4s79bVbh28UCbeSFFBBM/https://www.amazon.in/TheGiftKart-Samsung-Compatible-Shockproof-Transparent/dp/B0DP58N5N9/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&crid=1IF8YQCBZPG9R&cv_ct_cx=samsung+galaxy+s24+ultra+5%2Bg+cover&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&pd_rd_i=B0DP58N5N9&pd_rd_r=a9710cd4-3434-4eff-b864-ccbe7e7559d7&pd_rd_w=h8uL8&pd_rd_wg=yOmg3&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&qid=1752124164&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+  - heading "TheGiftKart Hybrid Back Cover Case for Samsung Galaxy S24 Ultra 5G Compatible with MagSafe | Shockproof Design | Hard Transparent Back Cover Case for Samsung Galaxy S24 Ultra (PC & TPU, Clear Sides)" [level=2]
+- button "4.3 out of 5 stars, rating details"
+- link "57 ratings":
+  - /url: https://aax-eu.amazon.in/x/c/JDwKmiKpIPl543UND31pbv8AAAGX8r0LBgMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICAViHLn/clv1_CEuOPUxokZA0iHrVYs40ygPJQ38-Yrw3uK5fzTK18_4z138L6Wulavw18HHz9hvVjq0yzpNb3X7OfU0UAGcAP2F6PgCIFcW2I0cPangpc1WeGJs6okfB8IkGXCQSUOW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUezXsNpqS-vcI9btjUe73yoLrINSrNOpF5etWYyQ-vo8C-9FHE6Fj0W5fDGy7yyiJpbYGWFCZYxY3qVSMj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq8-sXy4dCTTLqaFKWEG2vEWUYQR5WaRd-NWXKXNt_6mgwAGvbmtDCdaXvtFS_CF8CoIymgGwjQSZ6zz9CBRvUEkOcgmDU2TPNZf2bSaWBD9t80ENAnfyX2DZEaVnuuFlcRCdkrZwltwGIyffMSBcrRFM49kMurj5gHo1hoWBxbIZR1XV_iKvQa2fJW9nb8AfMStczvpjNpsTiQkx75fYN0lYeHoEifl-wL8qJRcQQAP4p1MjpBbbfuR91Dsy5nRbnu0oxvMFIFXoNX06_obfD_jE4pyaAGEtQCTWrhDDbPdr8BJm-NIGG4Cpvf5vKwPIpG7x7xLCM3TuASh2rzfNL3VYn-NgSMUsZBWi21ogFNBtg2Bls6eKUmO6cPi6TFcXwAHKpNZ2dNBMpsGMm0g2uu2FSrqkkt6CnXCPgmfH1m4R4wjVjGSt5gPKo9o_p_UEhyjvMNESTd8lMN6I3vqFpxdUMBwIBwL2uSDZiDJGM3IkRE5aWhzGz2CBtii_RYHq-YWYgP_QuGmXUN9qbduffKf5x3mRcC1WKfUfYRJyanJIeYfS0D_HaHc9IT_Yxbl2xARsXrk12oKq7Rh4jC5tMfOq-Vdd_INcrhBxdEGMZ7KwBG3aUb0nPNRgb22hRYyTKwk6MIWCBcCioO_YdhP05J5yXuoVCgJrOb2eMnavKOJ0rV1cB4OpouvUkeA_cdbEtgo5NcV6insdUHoHBPn0ICLgF7cfvbLGvYCx9hyG00T25pYjijJFYMskJV-OJlat3GmHfTQJ_FmHIuO_68lb7rZA1xis07NiIUvhKg88fn-K3kaijxsFC7bKWLwhm9CMSHPpY7BoB4QWjmsAx6pUrYeJ7iytmmuSMs7waetKT_PC9vkesByc1ZwzEqckTxT-00jN2-EnaH5_xp_N7Ncgwmx-Y-tVN9sP4LMhtnmmXAOqsPmJEnG8YbZFPQDRXiqSaxTOYB4uDY-YXK2KhT-oGn5R67YJzabtp2pySg1IwpYcJcB3Lj_4Kwas0QQZDHncuoK5pzzlFC_gaW-VpBGwG88TyL4s9oo59F0QkE_EHESDOl9MwpgNg4yji1CpdzhoLeJrEJfhSdoWODXIv_f7Ix6-Bk6oFZhAseO_18mcwZ2ORIR6COQyjupOf9_iO0382bHWbezlHRpWawBl7O787bgj25mVw23hkuXMPkrkGjX1nD1z5XxlYYGHQijjJmf7wYQpU1GAuwBP6YFWRyTaLxw0d8rvQC6bwmY6vktNwy9BlvvCAevIRAoPKXWGXuUsNabSy6v0qe1ULz-rkn4a6njY9dYPamvBhFWyzvbW3f1JNtBewn7UAsEu84kV0Aampr17XLhpcJFZ0Eg2EdOwxFXUPP6rJQyO9NKDDJ2JqbUrmuMAZuHt9rAxlisVYP5cN5or5N7lBUKDJY7Rko5Ke8ilc_lsQVhXnhpjS7-m_9nNzwMMdYGW5_kRnfTSWTEHsZL6E2AhKGVt4s79bVbh28UCbeSFFBBM/https://www.amazon.in/TheGiftKart-Samsung-Compatible-Shockproof-Transparent/dp/B0DP58N5N9/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&crid=1IF8YQCBZPG9R&cv_ct_cx=samsung+galaxy+s24+ultra+5%2Bg+cover&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&pd_rd_i=B0DP58N5N9&pd_rd_r=a9710cd4-3434-4eff-b864-ccbe7e7559d7&pd_rd_w=h8uL8&pd_rd_wg=yOmg3&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&qid=1752124164&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55#customerReviews
+- text: 200+ bought in past month Price, product page
+- 'link "₹251 M.R.P: ₹999 M.R.P: ₹999"':
+  - /url: https://aax-eu.amazon.in/x/c/JDwKmiKpIPl543UND31pbv8AAAGX8r0LBgMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICAViHLn/clv1_CEuOPUxokZA0iHrVYs40ygPJQ38-Yrw3uK5fzTK18_4z138L6Wulavw18HHz9hvVjq0yzpNb3X7OfU0UAGcAP2F6PgCIFcW2I0cPangpc1WeGJs6okfB8IkGXCQSUOW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUezXsNpqS-vcI9btjUe73yoLrINSrNOpF5etWYyQ-vo8C-9FHE6Fj0W5fDGy7yyiJpbYGWFCZYxY3qVSMj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq8-sXy4dCTTLqaFKWEG2vEWUYQR5WaRd-NWXKXNt_6mgwAGvbmtDCdaXvtFS_CF8CoIymgGwjQSZ6zz9CBRvUEkOcgmDU2TPNZf2bSaWBD9t80ENAnfyX2DZEaVnuuFlcRCdkrZwltwGIyffMSBcrRFM49kMurj5gHo1hoWBxbIZR1XV_iKvQa2fJW9nb8AfMStczvpjNpsTiQkx75fYN0lYeHoEifl-wL8qJRcQQAP4p1MjpBbbfuR91Dsy5nRbnu0oxvMFIFXoNX06_obfD_jE4pyaAGEtQCTWrhDDbPdr8BJm-NIGG4Cpvf5vKwPIpG7x7xLCM3TuASh2rzfNL3VYn-NgSMUsZBWi21ogFNBtg2Bls6eKUmO6cPi6TFcXwAHKpNZ2dNBMpsGMm0g2uu2FSrqkkt6CnXCPgmfH1m4R4wjVjGSt5gPKo9o_p_UEhyjvMNESTd8lMN6I3vqFpxdUMBwIBwL2uSDZiDJGM3IkRE5aWhzGz2CBtii_RYHq-YWYgP_QuGmXUN9qbduffKf5x3mRcC1WKfUfYRJyanJIeYfS0D_HaHc9IT_Yxbl2xARsXrk12oKq7Rh4jC5tMfOq-Vdd_INcrhBxdEGMZ7KwBG3aUb0nPNRgb22hRYyTKwk6MIWCBcCioO_YdhP05J5yXuoVCgJrOb2eMnavKOJ0rV1cB4OpouvUkeA_cdbEtgo5NcV6insdUHoHBPn0ICLgF7cfvbLGvYCx9hyG00T25pYjijJFYMskJV-OJlat3GmHfTQJ_FmHIuO_68lb7rZA1xis07NiIUvhKg88fn-K3kaijxsFC7bKWLwhm9CMSHPpY7BoB4QWjmsAx6pUrYeJ7iytmmuSMs7waetKT_PC9vkesByc1ZwzEqckTxT-00jN2-EnaH5_xp_N7Ncgwmx-Y-tVN9sP4LMhtnmmXAOqsPmJEnG8YbZFPQDRXiqSaxTOYB4uDY-YXK2KhT-oGn5R67YJzabtp2pySg1IwpYcJcB3Lj_4Kwas0QQZDHncuoK5pzzlFC_gaW-VpBGwG88TyL4s9oo59F0QkE_EHESDOl9MwpgNg4yji1CpdzhoLeJrEJfhSdoWODXIv_f7Ix6-Bk6oFZhAseO_18mcwZ2ORIR6COQyjupOf9_iO0382bHWbezlHRpWawBl7O787bgj25mVw23hkuXMPkrkGjX1nD1z5XxlYYGHQijjJmf7wYQpU1GAuwBP6YFWRyTaLxw0d8rvQC6bwmY6vktNwy9BlvvCAevIRAoPKXWGXuUsNabSy6v0qe1ULz-rkn4a6njY9dYPamvBhFWyzvbW3f1JNtBewn7UAsEu84kV0Aampr17XLhpcJFZ0Eg2EdOwxFXUPP6rJQyO9NKDDJ2JqbUrmuMAZuHt9rAxlisVYP5cN5or5N7lBUKDJY7Rko5Ke8ilc_lsQVhXnhpjS7-m_9nNzwMMdYGW5_kRnfTSWTEHsZL6E2AhKGVt4s79bVbh28UCbeSFFBBM/https://www.amazon.in/TheGiftKart-Samsung-Compatible-Shockproof-Transparent/dp/B0DP58N5N9/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&crid=1IF8YQCBZPG9R&cv_ct_cx=samsung+galaxy+s24+ultra+5%2Bg+cover&keywords=samsung+galaxy+s24+ultra+5%2Bg+cover&pd_rd_i=B0DP58N5N9&pd_rd_r=a9710cd4-3434-4eff-b864-ccbe7e7559d7&pd_rd_w=h8uL8&pd_rd_wg=yOmg3&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&qid=1752124164&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+- text: (75% off) Buy 2 items, get 4% off FREE delivery Sat, 12 Jul on first order Or fastest delivery Tomorrow, 11 Jul
+- navigation:
+  - region "pagination":
+    - list:
+      - button "Previous" [disabled]
+      - listitem:
+        - button "Page 1": "1"
+      - listitem:
+        - button "Go to page 2": "2"
+      - listitem:
+        - button "Go to page 3": "3"
+      - button [disabled]
+      - button "20" [disabled]
+      - listitem:
+        - button "Go to next page, page 2": Next
+- heading "Brands related to your search"
+- button "Leave feedback on Sponsored ad": Sponsored
+- link "Display of smartphone cases in various colors and styles, including folio and standard designs. A smartphone with blue-purple screen is propped up in one case.":
+  - /url: https://aax-eu.amazon.in/x/c/JEu0CIBq_49AJ8NUi_MsorYAAAGX8r0LkQMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC_nNJO/clv1_CEuOPUxokZA0iHrVXME83yLrTH5Dcas2natY0gyX88cwx38R6mulavw18HHz9hvVjq0yzpNb3X7OfU0PAmcAPBdaFi6-DIzxS2gLeRhKbwuwDYdgskfB8IkGXCQMUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUezXTFLCY-P849-A1VPT1uYbVHNeINel3iOxJWmEAvo8C-9FHE6Fj0W5fDGi7yyiNoLYWWBqbcyB9qkSqwUQnhinFOJGQaFdhRZzXuNdUWekbGEVr5yp2N7x1hxpbFTt6_ZtQIVQjGYWURtXEosi7ZjcafA60qqNOXGqLhlSWWDZocdV7oO7yLS1jyr2bwwXXNG96EYuBpfMO-gRoObkKrAKjilOZwWTAVi10VGw3GxXfaBTUYITxWzisYRJk8VE_FmStJHvldKE1kd1iexabo7x0qdMMJgzuMyw5qT91ifsAuYSsnnEhndCQ7IsNQ2vV_jWvRvKcC2ssbO0beD9cwrNjG61UnjAhpYLYM0lNUV9cnflAj78pH18ENh_7p1M7oQLcbuF-iz968mRPnu0W3v4GMHSwI0ctp4XhC_vE36rSAV8qGzDtnxHXaclxy2NU9NQETsWgrZ0wKRjp8X_Y1gbTGn_-EAJEtST7JzJmn-c6RNQkZhS52AYZEsx1gwU8tpiaHEyvL8GmeVdg8DjIndFZZPUQqZiynXMyte6HO8WUr96ajkuf4Wbxsk9NyFabnG2-gWXxp8Uvttw-ngDDPPscKssxCtqHx_iR3BFvCX8vOjjMriHfqmh_C08haU5OBybNyDqVsxWcSN_m7q-2vuzD52WqU7tALe-6VqPy_GKTbhAmLMkLHk5PYWkHbbvGxizHF38QJhmW-b1QzTwGWpsN26Og6xhBlylqKrS_nXom6ZRQpAR0SUOPDa60PhjKcbIkfvd1RW2hXLPvDxYrO-adcZ7dutDtBwXz7NlmW9cKMAJrPo6nUWivOLsyl3JiWIGW4bfOh94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy7tgdCsHxgYd-2dwabL17FnoYpbXatlTpD7agOVBvRL1wUAYxvrfJmUfuoE9wolIvyTHxx0_WIgqW1mN5xVp2_tSptmmuTns4XIgjcwAdeoCy8qdZLATSl0Gn1pbHp-dsqXqZ330n8JcIpmqYR_ja4o4RUD61FRa8T02kKTe3e4ULhRvn_Kyf49p3ANMe-0-Uz1e0sI_C5jfp0gCckfPJkBaVojdr1BFvuMeuoiaR4duKYeJsBSh5whS9fkYn1N6_onH4JI6et6YUFkOPIeAZCsMOQiBJHeDbxJs2vkxNx3vMIUpPOvbMdsXw1DxFnxq3ifaYHzTfAKkB5-oe8eSMVDvPt8oyJeYvOA0SG1Mx5OhPmwynf72upkxtSvqu2HqxjtC53JLOT587NhnBDkXxaJ8gVvxU71r2Z642l06s0JJvjTOt2Z5ZmQ-Nfz5RKKUIXfeBy2HM4FImR8HV0JFJ1GtP1IH6ADH75NG9vCYmi3YyCYrtMzEdRGubmHdZqSnKIP-IfqK4Rqlu8WiN3pw0WHzAaUVCeKB754Su-K6yTkwkpnEYAaPiaL8xUV7HgJND6JfZWCXcxWnAp_vloYsqeyjDU3dWDrygRXFkosvO_1SM/https://www.amazon.in/stores/page/4D4D801C-BE70-48F5-A9BC-B397C988C5DC/?_encoding=UTF8&store_ref=SB_A04271051KQXVI97E0J1T-A05987279IFGC5XM6Y8L&pd_rd_plhdr=t&aaxitk=6dfdfa46ca5ff0bea75c23ca97afe63f&hsa_cr_id=5116256370902&lp_asins=B084RVXBXJ%2CB08L5D4MTN&lp_query=samsung%20galaxy%20s24%20ultra%205%20g%20cover&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb0_ls&pd_rd_w=MdtQd&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=4y3Uw&pd_rd_r=5ed5723c-192d-412c-bbd0-1a0f3de09bde
+  - img "Display of smartphone cases in various colors and styles, including folio and standard designs. A smartphone with blue-purple screen is propped up in one case."
+- link "the word'pik'in black and white":
+  - /url: https://aax-eu.amazon.in/x/c/JEu0CIBq_49AJ8NUi_MsorYAAAGX8r0LkQMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC_nNJO/clv1_CEuOPUxokZA0iHrVXME83yLrTH5Dcas2natY0gyX88cwx38R6mulavw18HHz9hvVjq0yzpNb3X7OfU0PAmcAPBdaFi6-DIzxS2gLeRhKbwuwDYdgskfB8IkGXCQMUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUezXTFLCY-P849-A1VPT1uYbVHNeINel3iOxJWmEAvo8C-9FHE6Fj0W5fDGi7yyiNoLYWWBqbcyB9qkSqwUQnhinFOJGQaFdhRZzXuNdUWekbGEVr5yp2N7x1hxpbFTt6_ZtQIVQjGYWURtXEosi7ZjcafA60qqNOXGqLhlSWWDZocdV7oO7yLS1jyr2bwwXXNG96EYuBpfMO-gRoObkKrAKjilOZwWTAVi10VGw3GxXfaBTUYITxWzisYRJk8VE_FmStJHvldKE1kd1iexabo7x0qdMMJgzuMyw5qT91ifsAuYSsnnEhndCQ7IsNQ2vV_jWvRvKcC2ssbO0beD9cwrNjG61UnjAhpYLYM0lNUV9cnflAj78pH18ENh_7p1M7oQLcbuF-iz968mRPnu0W3v4GMHSwI0ctp4XhC_vE36rSAV8qGzDtnxHXaclxy2NU9NQETsWgrZ0wKRjp8X_Y1gbTGn_-EAJEtST7JzJmn-c6RNQkZhS52AYZEsx1gwU8tpiaHEyvL8GmeVdg8DjIndFZZPUQqZiynXMyte6HO8WUr96ajkuf4Wbxsk9NyFabnG2-gWXxp8Uvttw-ngDDPPscKssxCtqHx_iR3BFvCX8vOjjMriHfqmh_C08haU5OBybNyDqVsxWcSN_m7q-2vuzD52WqU7tALe-6VqPy_GKTbhAmLMkLHk5PYWkHbbvGxizHF38QJhmW-b1QzTwGWpsN26Og6xhBlylqKrS_nXom6ZRQpAR0SUOPDa60PhjKcbIkfvd1RW2hXLPvDxYrO-adcZ7dutDtBwXz7NlmW9cKMAJrPo6nUWivOLsyl3JiWIGW4bfOh94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy7tgdCsHxgYd-2dwabL17FnoYpbXatlTpD7agOVBvRL1wUAYxvrfJmUfuoE9wolIvyTHxx0_WIgqW1mN5xVp2_tSptmmuTns4XIgjcwAdeoCy8qdZLATSl0Gn1pbHp-dsqXqZ330n8JcIpmqYR_ja4o4RUD61FRa8T02kKTe3e4ULhRvn_Kyf49p3ANMe-0-Uz1e0sI_C5jfp0gCckfPJkBaVojdr1BFvuMeuoiaR4duKYeJsBSh5whS9fkYn1N6_onH4JI6et6YUFkOPIeAZCsMOQiBJHeDbxJs2vkxNx3vMIUpPOvbMdsXw1DxFnxq3ifaYHzTfAKkB5-oe8eSMVDvPt8oyJeYvOA0SG1Mx5OhPmwynf72upkxtSvqu2HqxjtC53JLOT587NhnBDkXxaJ8gVvxU71r2Z642l06s0JJvjTOt2Z5ZmQ-Nfz5RKKUIXfeBy2HM4FImR8HV0JFJ1GtP1IH6ADH75NG9vCYmi3YyCYrtMzEdRGubmHdZqSnKIP-IfqK4Rqlu8WiN3pw0WHzAaUVCeKB754Su-K6yTkwkpnEYAaPiaL8xUV7HgJND6JfZWCXcxWnAp_vloYsqeyjDU3dWDrygRXFkosvO_1SM/https://www.amazon.in/stores/page/4D4D801C-BE70-48F5-A9BC-B397C988C5DC/?_encoding=UTF8&store_ref=SB_A04271051KQXVI97E0J1T-A05987279IFGC5XM6Y8L&pd_rd_plhdr=t&aaxitk=6dfdfa46ca5ff0bea75c23ca97afe63f&hsa_cr_id=5116256370902&lp_asins=B084RVXBXJ%2CB08L5D4MTN&lp_query=samsung%20galaxy%20s24%20ultra%205%20g%20cover&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb0_logo&pd_rd_w=MdtQd&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=4y3Uw&pd_rd_r=5ed5723c-192d-412c-bbd0-1a0f3de09bde
+  - img "the word'pik'in black and white"
+- link "Stylish Back Cover For Samsung J7 Prime":
+  - /url: https://aax-eu.amazon.in/x/c/JEu0CIBq_49AJ8NUi_MsorYAAAGX8r0LkQMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICC_nNJO/clv1_CEuOPUxokZA0iHrVXME83yLrTH5Dcas2natY0gyX88cwx38R6mulavw18HHz9hvVjq0yzpNb3X7OfU0PAmcAPBdaFi6-DIzxS2gLeRhKbwuwDYdgskfB8IkGXCQMUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUezXTFLCY-P849-A1VPT1uYbVHNeINel3iOxJWmEAvo8C-9FHE6Fj0W5fDGi7yyiNoLYWWBqbcyB9qkSqwUQnhinFOJGQaFdhRZzXuNdUWekbGEVr5yp2N7x1hxpbFTt6_ZtQIVQjGYWURtXEosi7ZjcafA60qqNOXGqLhlSWWDZocdV7oO7yLS1jyr2bwwXXNG96EYuBpfMO-gRoObkKrAKjilOZwWTAVi10VGw3GxXfaBTUYITxWzisYRJk8VE_FmStJHvldKE1kd1iexabo7x0qdMMJgzuMyw5qT91ifsAuYSsnnEhndCQ7IsNQ2vV_jWvRvKcC2ssbO0beD9cwrNjG61UnjAhpYLYM0lNUV9cnflAj78pH18ENh_7p1M7oQLcbuF-iz968mRPnu0W3v4GMHSwI0ctp4XhC_vE36rSAV8qGzDtnxHXaclxy2NU9NQETsWgrZ0wKRjp8X_Y1gbTGn_-EAJEtST7JzJmn-c6RNQkZhS52AYZEsx1gwU8tpiaHEyvL8GmeVdg8DjIndFZZPUQqZiynXMyte6HO8WUr96ajkuf4Wbxsk9NyFabnG2-gWXxp8Uvttw-ngDDPPscKssxCtqHx_iR3BFvCX8vOjjMriHfqmh_C08haU5OBybNyDqVsxWcSN_m7q-2vuzD52WqU7tALe-6VqPy_GKTbhAmLMkLHk5PYWkHbbvGxizHF38QJhmW-b1QzTwGWpsN26Og6xhBlylqKrS_nXom6ZRQpAR0SUOPDa60PhjKcbIkfvd1RW2hXLPvDxYrO-adcZ7dutDtBwXz7NlmW9cKMAJrPo6nUWivOLsyl3JiWIGW4bfOh94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy7tgdCsHxgYd-2dwabL17FnoYpbXatlTpD7agOVBvRL1wUAYxvrfJmUfuoE9wolIvyTHxx0_WIgqW1mN5xVp2_tSptmmuTns4XIgjcwAdeoCy8qdZLATSl0Gn1pbHp-dsqXqZ330n8JcIpmqYR_ja4o4RUD61FRa8T02kKTe3e4ULhRvn_Kyf49p3ANMe-0-Uz1e0sI_C5jfp0gCckfPJkBaVojdr1BFvuMeuoiaR4duKYeJsBSh5whS9fkYn1N6_onH4JI6et6YUFkOPIeAZCsMOQiBJHeDbxJs2vkxNx3vMIUpPOvbMdsXw1DxFnxq3ifaYHzTfAKkB5-oe8eSMVDvPt8oyJeYvOA0SG1Mx5OhPmwynf72upkxtSvqu2HqxjtC53JLOT587NhnBDkXxaJ8gVvxU71r2Z642l06s0JJvjTOt2Z5ZmQ-Nfz5RKKUIXfeBy2HM4FImR8HV0JFJ1GtP1IH6ADH75NG9vCYmi3YyCYrtMzEdRGubmHdZqSnKIP-IfqK4Rqlu8WiN3pw0WHzAaUVCeKB754Su-K6yTkwkpnEYAaPiaL8xUV7HgJND6JfZWCXcxWnAp_vloYsqeyjDU3dWDrygRXFkosvO_1SM/https://www.amazon.in/stores/page/4D4D801C-BE70-48F5-A9BC-B397C988C5DC/?_encoding=UTF8&store_ref=SB_A04271051KQXVI97E0J1T-A05987279IFGC5XM6Y8L&pd_rd_plhdr=t&aaxitk=6dfdfa46ca5ff0bea75c23ca97afe63f&hsa_cr_id=5116256370902&lp_asins=B084RVXBXJ%2CB08L5D4MTN&lp_query=samsung%20galaxy%20s24%20ultra%205%20g%20cover&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb0_hl&pd_rd_w=MdtQd&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=4y3Uw&pd_rd_r=5ed5723c-192d-412c-bbd0-1a0f3de09bde
+- link "Multiple smartphones in various colors including green, black, and gold. Different views showcase sleek design and multiple rear cameras.":
+  - /url: https://aax-eu.amazon.in/x/c/JCQTR0-bH87wik776RjReYIAAAGX8r0LkgMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBS8dbr/clv1_CEuOPUxokZA0iHrVXME83yLrTH5Dcas2natY0gyX88cwx38R6mulavw18HHz9hvVjq0yzpNb3X7OfU0FAmcAJWJFFx3MDcThDWouWl9vU3SHMttzskfB8IkGXCQDUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUezPCOq2Y6cpB97taE93bsb_nLsvuAuh78tt0YD8Avo8C-9FHE6Fj0W5fDGy7yyidpbYWXFObczB9qkSqj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq82WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DI5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VrGdJVFmbNAQIzxy1rJjJqpPnhk6_YPmM0lYe0gDn9dYi74qGE0Hbi6ns0AksQLbfb9p7SAj8lpX1e4G0v4FIEHvIxg--pLyGKHQ8ZScAl8DCjDsrhvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGD0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWyUSNmRejNg9TSVt4leZ9NmpqSym30di_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPOsdcbQ2AN-53eyU4RJvbAgsACjmsBmG0R14PU80UXQ1WBvY9mWCnCi_T-aZ3r6cj_zSyRalUYFIM-yAJbjB1ESIZQJRLs9vfQtzZFdYb7j71j3pG3wuAxWD_pRuxwVsRqgEyoaq7Rhnlyp6JrS_jXoi6ZRUpQVbRkmfUqaoPwfOaYlBL8h8VEirWrPJAhYrP6KdcZLYuu7HSwXj-NhnZ_kQMSxNPL6nMlypOLczrV95DYWvuvrMvvMDe9PAgjkBJe9BpAcGan8DWPqeV2fvPKMeuLLeq7aZyx2QjUzu5uxYhTdpeNUJO2a2JGyhglCyYTszmU37Ie2Zx8kFhbVAxRTw7aN2BGbmDEo7VmOO9keDhTMoIrjcVq8gm4-yZHLDc6FecYsXmDMXwKhA0tqEijitnU2WId3dT-tKS9nf9ekwvAqX448YEo0_dx-NzEr3hv8SDQk17o7RsdcKxnV7UcZKGspNubMhlz2cA3yVttOFEU25X-lsSgDRX175eBTBSh4sfarkXqi3gBKuZkxJwbYJ49LQo1RtUlVwzYocK7QIJRX_LwmB9RAlAEXEkoXekRD_KDDednHT9BSYXNU-4aI6yP8l62cQlFXEQXqqEVhm2Ygwi8GwtW77ZyxNYf5IFI_uL_w4Dm3Ai8HDEn6wYE6cJ4sIm_Wkz82hyoXRb6JDUOc5oP5OeMf_PHfWmaTNbfDWeFMPbHRt5sXR1J4M8ILOwFfpze6mVUXYHir3tQRZoG1NZZWxUgrDEU73xbArU368vAMW_IYsQSGwW1EtO5RzrZdmScOSdN8Vi7X0TCd03czinu6wovx3QJbAoylilnir75gKHyHUzhZ0kTyth6VUAjepm1P1renX6d8PU6l71HKWIYUompgT_VGCgoZRMfJHe6xS02JwHcfO3FLYfMugLTfGrpu0R4uI0bwr7fldfNqutPtJjzwnevFBKK5rr8L3B1f_MY6whrh6cvuYR-4BUyROnzxqr43YHpbpsGoFeqC24dook4CKeAJCquuq1RJBeDKpJvedjBxv1voNZ4_MgdU_g3xpaE1Y1pS7e6Ui4DzCGDJOj5PFRH4dPMOL7cWlUK2AGnn91MxwcHXPKmCii7BDjH53rExhigxS7l4oqW03CqToxydXG8789DFMZT5-9LrCrI2g1Ks3J4b5HrNqJMM7UrtDlpJWMB9TJ-Yz3G05BZ7R-HcaYkF6A8yKcWmEBiDzKHYnGMGh39OdLK5SzxNOUuO5Bdc0WyqUaqYtndtz7QiLfgkLjD43KW1wSj6bHkXd3WizHIyw1TUEoXbwQbJKRrr8QeglZ7qnf8NSDWY1ZDQij62BEPr--8QGzcI8Fg3WDPECfy6SQbF_UJfBgV8/https://www.amazon.in/stores/page/8FFF9283-0D89-48DD-9731-62D1304CAFA9/?_encoding=UTF8&store_ref=SB_A04550333UE42TEPIED90-A09071702U8W6JHNOTCI6&pd_rd_plhdr=t&aaxitk=1c7cadd00abae092eab1c2d9d6b3d960&hsa_cr_id=0&lp_asins=B0CQ62Y3JG%2CB0CQ6JJDVF%2CB0CQ6KJXNL&lp_query=samsung%20galaxy%20s24%20ultra%205%20g%20cover&lp_slot=desktop-hsa-3psl&aref=4Ff7xvxVDg&ref_=sbx_be_s_3psl_mbd_mb1_ls&pd_rd_w=MdtQd&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=4y3Uw&pd_rd_r=5ed5723c-192d-412c-bbd0-1a0f3de09bde
+  - img "Multiple smartphones in various colors including green, black, and gold. Different views showcase sleek design and multiple rear cameras."
+- link "Ringke":
+  - /url: https://aax-eu.amazon.in/x/c/JCQTR0-bH87wik776RjReYIAAAGX8r0LkgMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBS8dbr/clv1_CEuOPUxokZA0iHrVXME83yLrTH5Dcas2natY0gyX88cwx38R6mulavw18HHz9hvVjq0yzpNb3X7OfU0FAmcAJWJFFx3MDcThDWouWl9vU3SHMttzskfB8IkGXCQDUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUezPCOq2Y6cpB97taE93bsb_nLsvuAuh78tt0YD8Avo8C-9FHE6Fj0W5fDGy7yyidpbYWXFObczB9qkSqj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq82WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DI5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VrGdJVFmbNAQIzxy1rJjJqpPnhk6_YPmM0lYe0gDn9dYi74qGE0Hbi6ns0AksQLbfb9p7SAj8lpX1e4G0v4FIEHvIxg--pLyGKHQ8ZScAl8DCjDsrhvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGD0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWyUSNmRejNg9TSVt4leZ9NmpqSym30di_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPOsdcbQ2AN-53eyU4RJvbAgsACjmsBmG0R14PU80UXQ1WBvY9mWCnCi_T-aZ3r6cj_zSyRalUYFIM-yAJbjB1ESIZQJRLs9vfQtzZFdYb7j71j3pG3wuAxWD_pRuxwVsRqgEyoaq7Rhnlyp6JrS_jXoi6ZRUpQVbRkmfUqaoPwfOaYlBL8h8VEirWrPJAhYrP6KdcZLYuu7HSwXj-NhnZ_kQMSxNPL6nMlypOLczrV95DYWvuvrMvvMDe9PAgjkBJe9BpAcGan8DWPqeV2fvPKMeuLLeq7aZyx2QjUzu5uxYhTdpeNUJO2a2JGyhglCyYTszmU37Ie2Zx8kFhbVAxRTw7aN2BGbmDEo7VmOO9keDhTMoIrjcVq8gm4-yZHLDc6FecYsXmDMXwKhA0tqEijitnU2WId3dT-tKS9nf9ekwvAqX448YEo0_dx-NzEr3hv8SDQk17o7RsdcKxnV7UcZKGspNubMhlz2cA3yVttOFEU25X-lsSgDRX175eBTBSh4sfarkXqi3gBKuZkxJwbYJ49LQo1RtUlVwzYocK7QIJRX_LwmB9RAlAEXEkoXekRD_KDDednHT9BSYXNU-4aI6yP8l62cQlFXEQXqqEVhm2Ygwi8GwtW77ZyxNYf5IFI_uL_w4Dm3Ai8HDEn6wYE6cJ4sIm_Wkz82hyoXRb6JDUOc5oP5OeMf_PHfWmaTNbfDWeFMPbHRt5sXR1J4M8ILOwFfpze6mVUXYHir3tQRZoG1NZZWxUgrDEU73xbArU368vAMW_IYsQSGwW1EtO5RzrZdmScOSdN8Vi7X0TCd03czinu6wovx3QJbAoylilnir75gKHyHUzhZ0kTyth6VUAjepm1P1renX6d8PU6l71HKWIYUompgT_VGCgoZRMfJHe6xS02JwHcfO3FLYfMugLTfGrpu0R4uI0bwr7fldfNqutPtJjzwnevFBKK5rr8L3B1f_MY6whrh6cvuYR-4BUyROnzxqr43YHpbpsGoFeqC24dook4CKeAJCquuq1RJBeDKpJvedjBxv1voNZ4_MgdU_g3xpaE1Y1pS7e6Ui4DzCGDJOj5PFRH4dPMOL7cWlUK2AGnn91MxwcHXPKmCii7BDjH53rExhigxS7l4oqW03CqToxydXG8789DFMZT5-9LrCrI2g1Ks3J4b5HrNqJMM7UrtDlpJWMB9TJ-Yz3G05BZ7R-HcaYkF6A8yKcWmEBiDzKHYnGMGh39OdLK5SzxNOUuO5Bdc0WyqUaqYtndtz7QiLfgkLjD43KW1wSj6bHkXd3WizHIyw1TUEoXbwQbJKRrr8QeglZ7qnf8NSDWY1ZDQij62BEPr--8QGzcI8Fg3WDPECfy6SQbF_UJfBgV8/https://www.amazon.in/stores/page/8FFF9283-0D89-48DD-9731-62D1304CAFA9/?_encoding=UTF8&store_ref=SB_A04550333UE42TEPIED90-A09071702U8W6JHNOTCI6&pd_rd_plhdr=t&aaxitk=1c7cadd00abae092eab1c2d9d6b3d960&hsa_cr_id=0&lp_asins=B0CQ62Y3JG%2CB0CQ6JJDVF%2CB0CQ6KJXNL&lp_query=samsung%20galaxy%20s24%20ultra%205%20g%20cover&lp_slot=desktop-hsa-3psl&aref=4Ff7xvxVDg&ref_=sbx_be_s_3psl_mbd_mb1_logo&pd_rd_w=MdtQd&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=4y3Uw&pd_rd_r=5ed5723c-192d-412c-bbd0-1a0f3de09bde
+  - img "Ringke"
+- link "Ringke Cases And Accessories For Galaxy S24 Ultra":
+  - /url: https://aax-eu.amazon.in/x/c/JCQTR0-bH87wik776RjReYIAAAGX8r0LkgMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBS8dbr/clv1_CEuOPUxokZA0iHrVXME83yLrTH5Dcas2natY0gyX88cwx38R6mulavw18HHz9hvVjq0yzpNb3X7OfU0FAmcAJWJFFx3MDcThDWouWl9vU3SHMttzskfB8IkGXCQDUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUezPCOq2Y6cpB97taE93bsb_nLsvuAuh78tt0YD8Avo8C-9FHE6Fj0W5fDGy7yyidpbYWXFObczB9qkSqj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq82WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DI5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VrGdJVFmbNAQIzxy1rJjJqpPnhk6_YPmM0lYe0gDn9dYi74qGE0Hbi6ns0AksQLbfb9p7SAj8lpX1e4G0v4FIEHvIxg--pLyGKHQ8ZScAl8DCjDsrhvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGD0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWyUSNmRejNg9TSVt4leZ9NmpqSym30di_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPOsdcbQ2AN-53eyU4RJvbAgsACjmsBmG0R14PU80UXQ1WBvY9mWCnCi_T-aZ3r6cj_zSyRalUYFIM-yAJbjB1ESIZQJRLs9vfQtzZFdYb7j71j3pG3wuAxWD_pRuxwVsRqgEyoaq7Rhnlyp6JrS_jXoi6ZRUpQVbRkmfUqaoPwfOaYlBL8h8VEirWrPJAhYrP6KdcZLYuu7HSwXj-NhnZ_kQMSxNPL6nMlypOLczrV95DYWvuvrMvvMDe9PAgjkBJe9BpAcGan8DWPqeV2fvPKMeuLLeq7aZyx2QjUzu5uxYhTdpeNUJO2a2JGyhglCyYTszmU37Ie2Zx8kFhbVAxRTw7aN2BGbmDEo7VmOO9keDhTMoIrjcVq8gm4-yZHLDc6FecYsXmDMXwKhA0tqEijitnU2WId3dT-tKS9nf9ekwvAqX448YEo0_dx-NzEr3hv8SDQk17o7RsdcKxnV7UcZKGspNubMhlz2cA3yVttOFEU25X-lsSgDRX175eBTBSh4sfarkXqi3gBKuZkxJwbYJ49LQo1RtUlVwzYocK7QIJRX_LwmB9RAlAEXEkoXekRD_KDDednHT9BSYXNU-4aI6yP8l62cQlFXEQXqqEVhm2Ygwi8GwtW77ZyxNYf5IFI_uL_w4Dm3Ai8HDEn6wYE6cJ4sIm_Wkz82hyoXRb6JDUOc5oP5OeMf_PHfWmaTNbfDWeFMPbHRt5sXR1J4M8ILOwFfpze6mVUXYHir3tQRZoG1NZZWxUgrDEU73xbArU368vAMW_IYsQSGwW1EtO5RzrZdmScOSdN8Vi7X0TCd03czinu6wovx3QJbAoylilnir75gKHyHUzhZ0kTyth6VUAjepm1P1renX6d8PU6l71HKWIYUompgT_VGCgoZRMfJHe6xS02JwHcfO3FLYfMugLTfGrpu0R4uI0bwr7fldfNqutPtJjzwnevFBKK5rr8L3B1f_MY6whrh6cvuYR-4BUyROnzxqr43YHpbpsGoFeqC24dook4CKeAJCquuq1RJBeDKpJvedjBxv1voNZ4_MgdU_g3xpaE1Y1pS7e6Ui4DzCGDJOj5PFRH4dPMOL7cWlUK2AGnn91MxwcHXPKmCii7BDjH53rExhigxS7l4oqW03CqToxydXG8789DFMZT5-9LrCrI2g1Ks3J4b5HrNqJMM7UrtDlpJWMB9TJ-Yz3G05BZ7R-HcaYkF6A8yKcWmEBiDzKHYnGMGh39OdLK5SzxNOUuO5Bdc0WyqUaqYtndtz7QiLfgkLjD43KW1wSj6bHkXd3WizHIyw1TUEoXbwQbJKRrr8QeglZ7qnf8NSDWY1ZDQij62BEPr--8QGzcI8Fg3WDPECfy6SQbF_UJfBgV8/https://www.amazon.in/stores/page/8FFF9283-0D89-48DD-9731-62D1304CAFA9/?_encoding=UTF8&store_ref=SB_A04550333UE42TEPIED90-A09071702U8W6JHNOTCI6&pd_rd_plhdr=t&aaxitk=1c7cadd00abae092eab1c2d9d6b3d960&hsa_cr_id=0&lp_asins=B0CQ62Y3JG%2CB0CQ6JJDVF%2CB0CQ6KJXNL&lp_query=samsung%20galaxy%20s24%20ultra%205%20g%20cover&lp_slot=desktop-hsa-3psl&aref=4Ff7xvxVDg&ref_=sbx_be_s_3psl_mbd_mb1_hl&pd_rd_w=MdtQd&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=4y3Uw&pd_rd_r=5ed5723c-192d-412c-bbd0-1a0f3de09bde
+- link "YATWIN":
+  - /url: https://aax-eu.amazon.in/x/c/JLJPQaXbPiz8jVwL667UaN0AAAGX8r0LkwMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBNiHaJ/clv1_CEuOPUxokZA0iHrVXME83yLrTH5Dcas2natY0gyX88cwx38R6mulavw18HHz9hvVjq0yzpNb3X7OfU0OAmcAHEsyHTmdDY_XK1ArVmhvUUG9JoEnhEfB8IkGXCQMUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUewObA9eawdkb9_AxaOz4k7zmI9fuAsNVjdxzDisPlI8C-9FHE6Fj0W5fDGy7yyiB4rQ4fhmZXSxzqkSqj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq82WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DI5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VrGdJVFmbNAQIzxy1rJjJqpPnhk6_YPmM0lYe0gDn9dYi74qGE0Hbi6ns0AksQLbfb9p7SAj8lpX1e4G0v4FIEHvIxg--pLyGKHQ8ZScAl8DCjDsrhvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGNUHkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWyUSdnlYDN8wSyVtI1edddUqZ2ctUgni_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPP0bX9s6AM-53eyU4RJvbAgsACjmsBmG0R14PU80UXQ1WBvY9mWCnCi_T-aZ3r6cj_zSyRalUYFIM-yAJbjB1ESIZQJRLs9vfQtzZFdYb7j71j3pG3wuAxWD_pRuxwVsRqgEyoaq7Rhn2ylqMvy9jW4j6oRy7AVmd1mOfKKqBAi9drFBJ9NNaHajS5rvThYVP6KdcaSRuu7HSwbj6NlkSe1RJSlwPIadDHWaOL90q2YeXpSGnLTNh94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy7tgdCsHxgYd-2dwabL17FnoYpbXatlTpD7agOVBvRL1wUAYxvrfJmUfuoE9wolIvyTHxx0_WIgqW1mN5xVp2_tSptmmuTns4XIgjcwAdeoCy8qdZLATSl0Gn1pbHp-dsqXqZ330n8JcIpmqYR_ja4o4RUD61FRa8T02kKTe3e4ULhRvn_Kyf49p3ANMe-0-Uz1e0sI_C5jfp0gCckfPJkBaVojdr1BFvuMeuoiaR4duKYeJsBSh5whS9fkYn1N6_onH4JI6et6YUFkOPIeAZCsMOQiBJHeDbxJs2vkxNx3vMIUpPOvbMdsXw1DxFnxq3ifaYHzTfAKkB5-oe8eSMVDvPt8oyJeYvOA0SG1Mx5OhLmqHzb22-p4ycW9L7dXqwD_3EHXenT5_7Gi1uEItAoQfBWpkgn16CG7pe80LEoIZ_9B_suPYRwRLpD0NlGK18SfPE5n3QiBZ6N_3gCHRB1A9jjN3qTGyG7NW4tR4-r3dCAfeZO0UwYUva-R8R8TSuULOF_qLcanEy4STQqxgIAG0xwQSrjHw_s6S6NJqqF_nYLgU3W3OQii9hcXeLEBu3FKMpDK18bbTZzpvT_zs6Uw_i8uJ31kjUCeTteVOnLfRYW/https://www.amazon.in/stores/page/58B47F15-C516-4AD4-A3F7-B9D794427832/?_encoding=UTF8&store_ref=SB_A0644286F3WRDCSBG6F9-A02597883GSRDTU881L0V&pd_rd_plhdr=t&aaxitk=ce37a51acfb0287131c84f40b591997c&hsa_cr_id=0&lp_asins=B0F7KLD46R%2CB0F7KPGMMP%2CB0F7KMVR1K&lp_query=samsung%20galaxy%20s24%20ultra%205%20g%20cover&lp_slot=desktop-hsa-3psl&aref=mIFycsuEeA&ref_=sbx_be_s_3psl_mbd_mb2_ls&pd_rd_w=MdtQd&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=4y3Uw&pd_rd_r=5ed5723c-192d-412c-bbd0-1a0f3de09bde
+  - img "YATWIN"
+- link "Black YATWIN company logo displayed on white background with geometric cube-like symbol.":
+  - /url: https://aax-eu.amazon.in/x/c/JLJPQaXbPiz8jVwL667UaN0AAAGX8r0LkwMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBNiHaJ/clv1_CEuOPUxokZA0iHrVXME83yLrTH5Dcas2natY0gyX88cwx38R6mulavw18HHz9hvVjq0yzpNb3X7OfU0OAmcAHEsyHTmdDY_XK1ArVmhvUUG9JoEnhEfB8IkGXCQMUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUewObA9eawdkb9_AxaOz4k7zmI9fuAsNVjdxzDisPlI8C-9FHE6Fj0W5fDGy7yyiB4rQ4fhmZXSxzqkSqj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq82WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DI5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VrGdJVFmbNAQIzxy1rJjJqpPnhk6_YPmM0lYe0gDn9dYi74qGE0Hbi6ns0AksQLbfb9p7SAj8lpX1e4G0v4FIEHvIxg--pLyGKHQ8ZScAl8DCjDsrhvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGNUHkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWyUSdnlYDN8wSyVtI1edddUqZ2ctUgni_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPP0bX9s6AM-53eyU4RJvbAgsACjmsBmG0R14PU80UXQ1WBvY9mWCnCi_T-aZ3r6cj_zSyRalUYFIM-yAJbjB1ESIZQJRLs9vfQtzZFdYb7j71j3pG3wuAxWD_pRuxwVsRqgEyoaq7Rhn2ylqMvy9jW4j6oRy7AVmd1mOfKKqBAi9drFBJ9NNaHajS5rvThYVP6KdcaSRuu7HSwbj6NlkSe1RJSlwPIadDHWaOL90q2YeXpSGnLTNh94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy7tgdCsHxgYd-2dwabL17FnoYpbXatlTpD7agOVBvRL1wUAYxvrfJmUfuoE9wolIvyTHxx0_WIgqW1mN5xVp2_tSptmmuTns4XIgjcwAdeoCy8qdZLATSl0Gn1pbHp-dsqXqZ330n8JcIpmqYR_ja4o4RUD61FRa8T02kKTe3e4ULhRvn_Kyf49p3ANMe-0-Uz1e0sI_C5jfp0gCckfPJkBaVojdr1BFvuMeuoiaR4duKYeJsBSh5whS9fkYn1N6_onH4JI6et6YUFkOPIeAZCsMOQiBJHeDbxJs2vkxNx3vMIUpPOvbMdsXw1DxFnxq3ifaYHzTfAKkB5-oe8eSMVDvPt8oyJeYvOA0SG1Mx5OhLmqHzb22-p4ycW9L7dXqwD_3EHXenT5_7Gi1uEItAoQfBWpkgn16CG7pe80LEoIZ_9B_suPYRwRLpD0NlGK18SfPE5n3QiBZ6N_3gCHRB1A9jjN3qTGyG7NW4tR4-r3dCAfeZO0UwYUva-R8R8TSuULOF_qLcanEy4STQqxgIAG0xwQSrjHw_s6S6NJqqF_nYLgU3W3OQii9hcXeLEBu3FKMpDK18bbTZzpvT_zs6Uw_i8uJ31kjUCeTteVOnLfRYW/https://www.amazon.in/stores/page/58B47F15-C516-4AD4-A3F7-B9D794427832/?_encoding=UTF8&store_ref=SB_A0644286F3WRDCSBG6F9-A02597883GSRDTU881L0V&pd_rd_plhdr=t&aaxitk=ce37a51acfb0287131c84f40b591997c&hsa_cr_id=0&lp_asins=B0F7KLD46R%2CB0F7KPGMMP%2CB0F7KMVR1K&lp_query=samsung%20galaxy%20s24%20ultra%205%20g%20cover&lp_slot=desktop-hsa-3psl&aref=mIFycsuEeA&ref_=sbx_be_s_3psl_mbd_mb2_logo&pd_rd_w=MdtQd&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=4y3Uw&pd_rd_r=5ed5723c-192d-412c-bbd0-1a0f3de09bde
+  - img "Black YATWIN company logo displayed on white background with geometric cube-like symbol."
+- link "Silicone Series Back Case":
+  - /url: https://aax-eu.amazon.in/x/c/JLJPQaXbPiz8jVwL667UaN0AAAGX8r0LkwMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBNiHaJ/clv1_CEuOPUxokZA0iHrVXME83yLrTH5Dcas2natY0gyX88cwx38R6mulavw18HHz9hvVjq0yzpNb3X7OfU0OAmcAHEsyHTmdDY_XK1ArVmhvUUG9JoEnhEfB8IkGXCQMUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_PelmSTiZJF-ZjAz9B7yl_bPrUYAZJ0SW56eH2BSUewObA9eawdkb9_AxaOz4k7zmI9fuAsNVjdxzDisPlI8C-9FHE6Fj0W5fDGy7yyiB4rQ4fhmZXSxzqkSqj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq82WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DI5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VrGdJVFmbNAQIzxy1rJjJqpPnhk6_YPmM0lYe0gDn9dYi74qGE0Hbi6ns0AksQLbfb9p7SAj8lpX1e4G0v4FIEHvIxg--pLyGKHQ8ZScAl8DCjDsrhvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGNUHkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWyUSdnlYDN8wSyVtI1edddUqZ2ctUgni_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPP0bX9s6AM-53eyU4RJvbAgsACjmsBmG0R14PU80UXQ1WBvY9mWCnCi_T-aZ3r6cj_zSyRalUYFIM-yAJbjB1ESIZQJRLs9vfQtzZFdYb7j71j3pG3wuAxWD_pRuxwVsRqgEyoaq7Rhn2ylqMvy9jW4j6oRy7AVmd1mOfKKqBAi9drFBJ9NNaHajS5rvThYVP6KdcaSRuu7HSwbj6NlkSe1RJSlwPIadDHWaOL90q2YeXpSGnLTNh94Tav3mhz8oIfpApHQdXQsbXsGeW3ngMqsXgNfGgIeaxx-t-XLo5rIajzFpVtEdPluvJ1XG3mmHHiYIiwTdHfCn-85xu7F7ygCs7bFycFjcbw8KfW_WyFaijzUoDLzIU5IzmfqcdUv5d5tpcbUVm1Zw2JB5tbq01DS4nU6wOt3MbuFMTPPazvYGqhyC7IUITYUjdgCJ1HGS184hDH5_3IDv8-4b5399UehODs9wvIwxrXSmO1aqjtPmBFyQZuhROD3LXyuOei_RZBE9VJOxT4armSjyM0lF7ogT99ftoVRyXhdIqJIgKrQxLxP5KAOezHM5B3vchoPewBX7FRbdfHTt7gCdYYwA_rpw-dQ5_2AflEPDNF-gF19M3LMvvdemoGHxTxlvSshtZ5fXceAuDmziyf_4CkCKPj2ZJ4k6tMu728aw47zXaIRfDfEsr_RmUunuBVLgwp74cdjlDW0dbHZU7MPR-poY9b_Kw23hy9C2SVzJNwy7tgdCsHxgYd-2dwabL17FnoYpbXatlTpD7agOVBvRL1wUAYxvrfJmUfuoE9wolIvyTHxx0_WIgqW1mN5xVp2_tSptmmuTns4XIgjcwAdeoCy8qdZLATSl0Gn1pbHp-dsqXqZ330n8JcIpmqYR_ja4o4RUD61FRa8T02kKTe3e4ULhRvn_Kyf49p3ANMe-0-Uz1e0sI_C5jfp0gCckfPJkBaVojdr1BFvuMeuoiaR4duKYeJsBSh5whS9fkYn1N6_onH4JI6et6YUFkOPIeAZCsMOQiBJHeDbxJs2vkxNx3vMIUpPOvbMdsXw1DxFnxq3ifaYHzTfAKkB5-oe8eSMVDvPt8oyJeYvOA0SG1Mx5OhLmqHzb22-p4ycW9L7dXqwD_3EHXenT5_7Gi1uEItAoQfBWpkgn16CG7pe80LEoIZ_9B_suPYRwRLpD0NlGK18SfPE5n3QiBZ6N_3gCHRB1A9jjN3qTGyG7NW4tR4-r3dCAfeZO0UwYUva-R8R8TSuULOF_qLcanEy4STQqxgIAG0xwQSrjHw_s6S6NJqqF_nYLgU3W3OQii9hcXeLEBu3FKMpDK18bbTZzpvT_zs6Uw_i8uJ31kjUCeTteVOnLfRYW/https://www.amazon.in/stores/page/58B47F15-C516-4AD4-A3F7-B9D794427832/?_encoding=UTF8&store_ref=SB_A0644286F3WRDCSBG6F9-A02597883GSRDTU881L0V&pd_rd_plhdr=t&aaxitk=ce37a51acfb0287131c84f40b591997c&hsa_cr_id=0&lp_asins=B0F7KLD46R%2CB0F7KPGMMP%2CB0F7KMVR1K&lp_query=samsung%20galaxy%20s24%20ultra%205%20g%20cover&lp_slot=desktop-hsa-3psl&aref=mIFycsuEeA&ref_=sbx_be_s_3psl_mbd_mb2_hl&pd_rd_w=MdtQd&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=A5HYK2BQHY4QXRFGDKWQ&pd_rd_wg=4y3Uw&pd_rd_r=5ed5723c-192d-412c-bbd0-1a0f3de09bde
+- heading "Need help?" [level=2]
+- link "Visit the help section":
+  - /url: /gp/help/customer/display.html?nodeId=201889520
+- text: or
+- link "contact us":
+  - /url: /gp/help/customer/contact-us
+- iframe
+- button "Leave feedback on Sponsored advertisement"
+- link "Go back to filtering menu":
+  - /url: "#s-skipLinkTargetForFilterOptions"
+- link "Skip to main search results":
+  - /url: "#s-skipLinkTargetForMainSearchResults"
+- group "Customer Review":
+  - heading "Customer Review" [level=2]
+  - list "Customer Review":
+    - listitem:
+      - link "Apply the filter 4 Stars & Up to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=p_72%3A1318476031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=1318475031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_72_1&ds=v1%3AZ64rDXexmLdXLXDGSCdpcqi7Z%2FEcD%2F5UdFnIDuu%2BE1U
+        - text: 4 Stars & Up
+- group:
+  - text: Price ₹145 ₹61,500+
+  - slider "Minimum price": "0"
+  - slider "Maximum price": "186"
+  - button "Go - Submit price range"
+  - heading "Deals & Discounts" [level=2]
+  - list "Deals & Discounts":
+    - listitem:
+      - link "All Discounts":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=p_n_deal_type%3A26921226031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=26921223031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_deal_type_1&ds=v1%3Ax4pnuuFngrOo9CPTJYpLOAk2PCNJNCA8wgLri20EACI
+    - listitem:
+      - link "Today's Deals":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=p_n_deal_type%3A26921224031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=26921223031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_deal_type_2&ds=v1%3A1TIDUuiYopOPd6Z1nNaQQ6qMQlMKddLnNXAaVRN6DrQ
+- group "Brands":
+  - heading "Brands" [level=2]
+  - list "Brands":
+    - listitem:
+      - link "Apply the filter TheGiftKart to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_123%3A454086&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=91049095031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_123_1&ds=v1%3AITfogYGM25%2Ba%2Fvwx9igtpSurHZUlFoNoiJmth9R1QAA
+        - text: TheGiftKart
+- group "Color":
+  - heading "Color" [level=2]
+  - list "Color":
+    - listitem:
+      - link "Apply the filter Black to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A3663510031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=3663508031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_size_two_browse-vebin_1&ds=v1%3AFbkeia93rQDvNzph3xI8DkeIMeylsX2UUDIjUTZw8tU
+    - listitem:
+      - link "Apply the filter Grey to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A3663515031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=3663508031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_size_two_browse-vebin_2&ds=v1%3ALd9RpWqm3eLVlHstRRYhOYlTYTHZLE9h74K7ugj8qi8
+    - listitem:
+      - link "Apply the filter Brown to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A3663512031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=3663508031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_size_two_browse-vebin_3&ds=v1%3AcWko4xlL0xWSrTWRYLV0jRXDINAwTAuMt1oF0UMIW3Y
+    - listitem:
+      - link "Apply the filter Blue to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A3663511031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=3663508031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_size_two_browse-vebin_4&ds=v1%3A8oI0PwOjSqQnWiQehKAk9ggRtzqMUrSQVVLLPrA0eV4
+    - listitem:
+      - link "Apply the filter Silver to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A3663522031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=3663508031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_size_two_browse-vebin_5&ds=v1%3Ae9B1771r2RgTDKTw64SaZsF%2BQM0yXgNAshrS0QaATmw
+    - listitem:
+      - link "Apply the filter Transparent to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A3663523031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=3663508031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_size_two_browse-vebin_6&ds=v1%3AHsas8blWty6sFZaBeBkvTVBl%2B3r9lW6fUGC0grwIcYc
+- group "Material":
+  - heading "Material" [level=2]
+  - list "Material":
+    - listitem:
+      - link "Apply the filter Polycarbonate to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_twelve_browse-bin%3A49875006031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=49874979031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_twelve_browse-bin_1&ds=v1%3ApuqR4oBsl9mFm3wMfnjzLCWPUZvPTeXo6rFxu%2F0YSx4
+        - text: Polycarbonate
+    - listitem:
+      - link "Apply the filter Thermoplastic Polyurethane to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_twelve_browse-bin%3A49875001031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=49874979031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_twelve_browse-bin_2&ds=v1%3A5czaocDSz0dSgb7FsxFHOmmJoNVvnZlIEdm%2BBlx1dxg
+        - text: Thermoplastic Polyurethane
+    - listitem:
+      - link "Apply the filter Silicone to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_twelve_browse-bin%3A49874992031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=49874979031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_twelve_browse-bin_3&ds=v1%3A7BfkSy%2BBEQXxJozDGyZ5HqGB8VPABPLjlJaI56now%2Fs
+        - text: Silicone
+    - listitem:
+      - link "Apply the filter Faux Leather to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_twelve_browse-bin%3A49874982031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=49874979031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_twelve_browse-bin_4&ds=v1%3AyNjdG0cw99qw4udDOuo1AdD02FIt2Ft7pEekinMZL6w
+        - text: Faux Leather
+    - listitem:
+      - link "Apply the filter Leather to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_twelve_browse-bin%3A49875002031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=49874979031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_twelve_browse-bin_5&ds=v1%3AymNasGjp8NzPRSNeFkbV%2BSfZSMjlZEy9kaRup8mhiXA
+        - text: Leather
+    - listitem:
+      - link "Apply the filter Rubber to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_twelve_browse-bin%3A49875013031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=49874979031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_twelve_browse-bin_6&ds=v1%3AwthpaKvAkE92PmGKwtJcMhHO74U6ar2PFnQ564c5W4I
+        - text: Rubber
+- group "Electronic Accessories Brands":
+  - heading "Electronic Accessories Brands" [level=2]
+  - list "Electronic Accessories Brands":
+    - listitem:
+      - link "Apply the filter Top Brands to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_format_browse-bin%3A30678584031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=30678575031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3AHh0s5cAAuRuoa0bqCOvn%2Bb3DeAMALEs%2BwL07fvTuQeU
+        - text: Top Brands
+- group "Category":
+  - heading "Category" [level=2]
+  - list "Category":
+    - listitem:
+      - link "Mobile Cases & Covers":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A1389409031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=3576079031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_n_1&ds=v1%3A0kSiO57EM%2FFUw5sM03vGWw4C0aMrKzaCZkWq4YI8AcY
+    - listitem:
+      - link "Mobile Basic Cases":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A1389409031%2Cn%3A21529679031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=3576079031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_n_2&ds=v1%3AdQEgxoTrQfo1Cm4jL%2FVDKqUsa2td%2Fl0B1sE7hp2ln%2Fg
+    - listitem:
+      - link "Cell Phone Bumpers":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A1389409031%2Cn%3A12710103031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=3576079031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_n_3&ds=v1%3AIPtWGlrmKwtE5DWbCBBGgl2qPlq8kCOOYiJ4rZ3zh7U
+    - listitem:
+      - link "Flip & Wallet Cases":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A1389409031%2Cn%3A12538062031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=3576079031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_n_4&ds=v1%3A60RipWXnePBJHCtPyILLaTFXKDbjxI1LOsOOMO4hnjU
+- group "Special Features":
+  - heading "Special Features" [level=2]
+  - list "Special Features":
+    - listitem:
+      - link "Apply the filter 360 Degree Protection to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_six_browse-bin%3A207870075031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=207870071031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_six_browse-bin_1&ds=v1%3AhSfpeDQUSPmcvGgyb6xI%2F6UFrRyvvA5JKw10jmmrTaY
+        - text: 360 Degree Protection
+    - listitem:
+      - link "Apply the filter Anti-Fingerprint to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_six_browse-bin%3A207870094031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=207870071031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_six_browse-bin_2&ds=v1%3AE%2FLmbLyN7sK93HPJZcAboirK%2B%2BL6iiK5pvUMeDZ29EM
+        - text: Anti-Fingerprint
+    - listitem:
+      - link "Apply the filter Anti-Slip to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_six_browse-bin%3A207870085031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=207870071031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_six_browse-bin_3&ds=v1%3ANw9OpvnMJTcPnDYO5Ag8SHi5A%2BHj4leLsuwz3cK8N14
+        - text: Anti-Slip
+    - listitem:
+      - link "Apply the filter Dustproof to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_six_browse-bin%3A207870097031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=207870071031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_six_browse-bin_4&ds=v1%3AtKV73erSACGWWwtbujkFvjC4hi%2BaSBKqSUOu4qJ%2BdBc
+        - text: Dustproof
+    - listitem:
+      - link "Apply the filter Flexible to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_six_browse-bin%3A207870076031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=207870071031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_six_browse-bin_5&ds=v1%3AX%2B7YQdOgYfhry22feUNjtPGNpM5vwPJplxSWhfBohgQ
+        - text: Flexible
+    - listitem:
+      - link "Apply the filter Heavy Duty Protection to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_six_browse-bin%3A207870089031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=207870071031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_six_browse-bin_6&ds=v1%3A9Op6HYetpa4M3npZ0Ypz1PhXCMsMxwGzJmRilaB%2FR8o
+        - text: Heavy Duty Protection
+    - listitem:
+      - link "Apply the filter Kickstand to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_six_browse-bin%3A207870100031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=207870071031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_six_browse-bin_7&ds=v1%3A3gabhxXiBDt%2Fok47xNT2clA7vGJ2cvbePEKhLRx9O5I
+        - text: Kickstand
+    - listitem:
+      - button "See more, Special Features": See more
+- group "Features":
+  - heading "Features" [level=2]
+  - list "Features":
+    - listitem:
+      - link "Apply the filter Anti-Slip to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_eleven_browse-bin%3A28639758031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=28639730031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_eleven_browse-bin_1&ds=v1%3Avfo%2FLWW9VIdvN7pL4t%2Fhzf474lEnlXS1Lla%2BviY1Pkw
+        - text: Anti-Slip
+    - listitem:
+      - link "Apply the filter Anti-Fingerprint to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_eleven_browse-bin%3A28639743031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=28639730031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_eleven_browse-bin_2&ds=v1%3Aj5SQ3e2KCM22JiGNBTjdDyqgKX56GQWFxf%2Fx3r1Ghdc
+        - text: Anti-Fingerprint
+    - listitem:
+      - link "Apply the filter Flexible to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_eleven_browse-bin%3A28639747031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=28639730031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_eleven_browse-bin_3&ds=v1%3AzYhFgqojFWLtlQ8Tp2lnBuC6T4ua3%2FY3BIef7wberyY
+        - text: Flexible
+    - listitem:
+      - link "Apply the filter Heavy Duty Protection to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_eleven_browse-bin%3A28639754031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=28639730031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_eleven_browse-bin_4&ds=v1%3A8C71xdVcmqV3QE5FExABB75FeVEEdOzeRmLY%2FHm%2Buvs
+        - text: Heavy Duty Protection
+    - listitem:
+      - link "Apply the filter Kickstand to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_eleven_browse-bin%3A28639739031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=28639730031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_eleven_browse-bin_5&ds=v1%3AJs0VDfrYAh0%2BEs692j9FLp%2B%2BLUf3k7RMWhNnWwWpZ6c
+        - text: Kickstand
+    - listitem:
+      - link "Apply the filter Lightweight to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_eleven_browse-bin%3A28639745031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=28639730031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_eleven_browse-bin_6&ds=v1%3AoB9pCdPa4qn5JptPckzhIowzPG%2BM0JL8NmcfrTFsRJg
+        - text: Lightweight
+    - listitem:
+      - link "Apply the filter Scratch Resistant to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_eleven_browse-bin%3A28639746031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=28639730031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_eleven_browse-bin_7&ds=v1%3Akak9%2FXNfZHEwj%2BphhgXt%2F0liMKToozi0pFphGhY4PVc
+        - text: Scratch Resistant
+    - listitem:
+      - button "See more, Features": See more
+- group "Pattern":
+  - heading "Pattern" [level=2]
+  - list "Pattern":
+    - listitem:
+      - link "Apply the filter Solid to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_seventeen_browse-bin%3A28467638031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=28467618031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_seventeen_browse-bin_1&ds=v1%3A7oW6qNFYsMx%2FMaQzicKQBuMcE9AoPc5b%2BPLfpVMI8Mc
+        - text: Solid
+    - listitem:
+      - link "Apply the filter Floral to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_seventeen_browse-bin%3A28467640031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=28467618031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_seventeen_browse-bin_2&ds=v1%3AlQMGA6AMDYApbGp3s8astA1JtJitKo9A9VYpAAPRLhY
+        - text: Floral
+    - listitem:
+      - link "Apply the filter Geometric to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_seventeen_browse-bin%3A28467626031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=28467618031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_seventeen_browse-bin_3&ds=v1%3AFBDjRY1AU1wskbQv9Jfvhj83jePWIA%2BeuGCagj8DkjQ
+        - text: Geometric
+- group "Discount":
+  - heading "Discount" [level=2]
+  - list "Discount":
+    - listitem:
+      - link "10% Off or more":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_pct-off-with-tax%3A2665399031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=2665398031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3Ab3slg7%2Bbc7LejqI201yvFBExtlytdfGXN1Gzb%2BwBWs4
+    - listitem:
+      - link "25% Off or more":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_pct-off-with-tax%3A2665400031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=2665398031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_pct-off-with-tax_2&ds=v1%3AXGnrZ4gvwdZ39pCOTnWeoURgdZDlU%2Fde1ayED1DgAbI
+    - listitem:
+      - link "35% Off or more":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_pct-off-with-tax%3A2665402031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=2665398031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_pct-off-with-tax_3&ds=v1%3ALccPY7LMkj1LAW8qj55N1887T02pfXc0kKpOaZm%2FuMc
+    - listitem:
+      - link "50% Off or more":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_pct-off-with-tax%3A2665401031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=2665398031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_pct-off-with-tax_4&ds=v1%3AqSWuOeqCMWevBkSW9gbGb8sNx4aWkX4rsyBLtimKNZA
+    - listitem:
+      - link "60% Off or more":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_pct-off-with-tax%3A27060456031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=2665398031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_pct-off-with-tax_5&ds=v1%3AHv9KVwqEtNGK16zBmfcpL2x6m1LhR3hbIUcKN3ox0Jc
+    - listitem:
+      - link "70% Off or more":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_pct-off-with-tax%3A27060457031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=2665398031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_pct-off-with-tax_6&ds=v1%3Az9Tw13%2FcHZ5w1d2lR3wlYknXvQ0js86kna%2B2xDIVMJs
+- group "Item Condition":
+  - heading "Item Condition" [level=2]
+  - list "Item Condition":
+    - listitem:
+      - link "New":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_condition-type%3A8609960031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=8609959031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_condition-type_1&ds=v1%3AjM9esFzHXUZPIsWl8hoqa3cPM%2Fxo7KueTivgL6Nig8Y
+- group "New Arrivals":
+  - heading "New Arrivals" [level=2]
+  - list "New Arrivals":
+    - listitem:
+      - link "Last 30 days":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_date_first_available_absolute%3A1318487031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=1318486031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_date_first_available_absolute_1&ds=v1%3Alxk9W3EvdM29wXS3%2FcdgGCf1GsYjxaia2c4YRX4ltZs
+    - listitem:
+      - link "Last 90 days":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_date_first_available_absolute%3A1318488031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=1318486031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_date_first_available_absolute_2&ds=v1%3A9K6aLei4RGSR7Q%2FUciSi%2BhaNEgkDLyrRBj2IfpO8PbY
+- group "Finish":
+  - heading "Finish" [level=2]
+  - list "Finish":
+    - listitem:
+      - link "Apply the filter Glossy to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_eighteen_browse-bin%3A28251404031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=28251395031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_eighteen_browse-bin_1&ds=v1%3AngBPxC%2F46u0RIeNAEKaxMDE3Xh4Iu9kVBvSQK4LsCX4
+        - text: Glossy
+    - listitem:
+      - link "Apply the filter Matte to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_eighteen_browse-bin%3A28251405031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=28251395031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_eighteen_browse-bin_2&ds=v1%3AskV%2FXaN4Ol54O7OqFnxxWmwJd5cXjjf8H4OHup4%2BmGI
+        - text: Matte
+    - listitem:
+      - link "Apply the filter Smooth to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_eighteen_browse-bin%3A28251403031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=28251395031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_eighteen_browse-bin_3&ds=v1%3AUdTAAuYazNP2bl1I69IubKhEpyHGhQMT2srNU2IYefI
+        - text: Smooth
+- group "Pay On Delivery":
+  - heading "Pay On Delivery" [level=2]
+  - list "Pay On Delivery":
+    - listitem:
+      - link "Apply the filter Eligible for Pay On Delivery to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=p_n_is_cod_eligible%3A4931671031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=4931670031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_is_cod_eligible_1&ds=v1%3AW9%2BzIHXcbSlXt9Mm1vUMXNt49u7rWBdgGgbCxgNtBIA
+        - text: Eligible for Pay On Delivery
+- group "Theme":
+  - heading "Theme" [level=2]
+  - list "Theme":
+    - listitem:
+      - link "Apply the filter Fantasy to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_ten_browse-bin%3A27369114031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=27369101031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_ten_browse-bin_1&ds=v1%3A5TJ%2FK0hx4IwiUIl5gFuLsxsJJp20K20l%2BnY0wj3iwNg
+        - text: Fantasy
+    - listitem:
+      - link "Apply the filter Military to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_ten_browse-bin%3A27369129031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=27369101031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_ten_browse-bin_2&ds=v1%3Ajc3y2pY6Q7UhLfvw7cgamP%2FsF64r4vdWsXE1Mx9oLJA
+        - text: Military
+    - listitem:
+      - link "Apply the filter Space to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_ten_browse-bin%3A27369104031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=27369101031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_ten_browse-bin_3&ds=v1%3AFULABqFPSkso9xsCjP9ebDRtjoj1gSU6RLsWNUDuNto
+        - text: Space
+- group "Seller":
+  - heading "Seller" [level=2]
+  - list "Seller":
+    - listitem:
+      - link "Apply the filter Cocoblu Retail to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_6%3AA1WYWER0W24N8S&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=1318474031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_6_1&ds=v1%3AAaqzWg0tCdT%2Bul78Z8Zf2D8NsxADRWpEtFOElIizTUc
+        - text: Cocoblu Retail
+    - listitem:
+      - link "Apply the filter TheGiftKart to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_6%3AA3RU4MEDJKV1YX&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=1318474031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_6_2&ds=v1%3ARuNcaq0y94FpCIGWxV0bx03hbHF%2F58gwUge3ETfS65A
+        - text: TheGiftKart
+    - listitem:
+      - button "See more, Seller": See more
+- group "Embellishments":
+  - heading "Embellishments" [level=2]
+  - list "Embellishments":
+    - listitem:
+      - link "Apply the filter Crystal to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_five_browse-bin%3A27254918031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=27254917031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_five_browse-bin_1&ds=v1%3A7AYaopOn5NJFLdH%2BaqSy2pn1ohbRZCnKOlECz8Caib8
+        - text: Crystal
+    - listitem:
+      - link "Apply the filter Glitter to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_five_browse-bin%3A27254919031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=27254917031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_five_browse-bin_2&ds=v1%3A%2F2ag45pwi4xAIJkN1p07kRDKcK1ftLZ3zrHxrc66YDA
+        - text: Glitter
+    - listitem:
+      - link "Apply the filter Logo to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_five_browse-bin%3A65933740031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=27254917031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_five_browse-bin_3&ds=v1%3AmuLfRjg87DPy6Nr6WAci75wQLmQmJhR3U8oDRGSWL2A
+        - text: Logo
+- group "Availability":
+  - heading "Availability" [level=2]
+  - list "Availability":
+    - listitem:
+      - link "Apply the filter Include Out of Stock to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=p_n_availability%3A1318485031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=1318483031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_availability_2&ds=v1%3AE5Me%2FFJkJjgVjT9Hemc900BIuNoJXTviNFeIWmlDPmk
+        - text: Include Out of Stock
+- group "Age Range":
+  - heading "Age Range" [level=2]
+  - list "Age Range":
+    - listitem:
+      - link "Apply the filter Adult to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_three_browse-bin%3A100689399031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=100689356031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_three_browse-bin_1&ds=v1%3AzSKJFC8L%2Bq%2B32QVVmPeiD3z0dreMUzTb8Rdd4w%2BtzKs
+        - text: Adult
+- group "Item Height":
+  - heading "Item Height" [level=2]
+  - list "Item Height":
+    - listitem:
+      - link "Apply the filter Up to 2.9 cm to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_nine_browse-bin%3A100718723031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=100718694031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_nine_browse-bin_1&ds=v1%3AS58W56VSh8rh4%2FQLUHnFfNNEp%2BHSEbHoreoPW0QzJcw
+        - text: Up to 2.9 cm
+    - listitem:
+      - link "Apply the filter 3 to 4.9 cm to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_nine_browse-bin%3A100718720031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=100718694031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_nine_browse-bin_2&ds=v1%3ANQEoWJ5mE4%2B5AqUBc9cGMYzezAhlgiX5WJn8Fl%2FFgxE
+        - text: 3 to 4.9 cm
+    - listitem:
+      - link "Apply the filter 5 to 7.9 cm to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_nine_browse-bin%3A100718726031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=100718694031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_nine_browse-bin_3&ds=v1%3A4uZY%2Fevde%2FZN%2FlcDnVltEyYsgZf8rG25BN7wXx0UDYc
+        - text: 5 to 7.9 cm
+    - listitem:
+      - link "Apply the filter 8 cm & above to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_nine_browse-bin%3A100718728031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=100718694031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_nine_browse-bin_4&ds=v1%3ApAjCy5bdbSxzmEZfkF%2FXv4xzmbZoGYtgAjUX7i%2FV9yM
+        - text: 8 cm & above
+- group "Length":
+  - heading "Length" [level=2]
+  - list "Length":
+    - listitem:
+      - link "Apply the filter Up to 14.9 cm to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_fourteen_browse-bin%3A100719302031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=100719297031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_fourteen_browse-bin_1&ds=v1%3ApWj88hAKSisRSRtUeral8l7g856QsSYWB2NZvT5wyWQ
+        - text: Up to 14.9 cm
+    - listitem:
+      - link "Apply the filter 15 to 17.9 cm to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_fourteen_browse-bin%3A100719301031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=100719297031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_fourteen_browse-bin_2&ds=v1%3Ahshqj2puOfPfD7h9%2FZFH9yr1NuiTzzJI4vxh3NmtAV8
+        - text: 15 to 17.9 cm
+    - listitem:
+      - link "Apply the filter 18 to 19.9 cm to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_fourteen_browse-bin%3A100719299031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=100719297031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_fourteen_browse-bin_3&ds=v1%3A8sd5d36h40KRDXsXP%2FIYUkBz4xukMMTksxkZy2DEx7I
+        - text: 18 to 19.9 cm
+    - listitem:
+      - link "Apply the filter 20 cm & above to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_fourteen_browse-bin%3A100719300031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=100719297031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_fourteen_browse-bin_4&ds=v1%3AZI4EfmDlLpo2%2FVdzSBgklQrR2%2Bo81GzC%2FLosGiKhfjI
+        - text: 20 cm & above
+- group "Width":
+  - heading "Width" [level=2]
+  - list "Width":
+    - listitem:
+      - link "Apply the filter Up to 7.9 cm to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_fifteen_browse-bin%3A100718713031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=100718692031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_fifteen_browse-bin_1&ds=v1%3Af%2F%2FrxAt04gtcn1LyU6yuVlDJVs37y6sTly2gyzFxyoc
+        - text: Up to 7.9 cm
+    - listitem:
+      - link "Apply the filter 8 to 9.9 cm to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_fifteen_browse-bin%3A100718717031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=100718692031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_fifteen_browse-bin_2&ds=v1%3AONXIke1kOXZicesG42hLWNvrwWP%2FrYx2YbWNbkNEA5o
+        - text: 8 to 9.9 cm
+    - listitem:
+      - link "Apply the filter 10 to 12.9 cm to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_fifteen_browse-bin%3A100718711031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=100718692031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_fifteen_browse-bin_3&ds=v1%3AaTCvZDOZfJkS8oQsK8I67BbN2TQHM5JEr3LTSm3Gwc8
+        - text: 10 to 12.9 cm
+    - listitem:
+      - link "Apply the filter 13 cm & above to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_fifteen_browse-bin%3A100718715031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=100718692031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_fifteen_browse-bin_4&ds=v1%3A31jx5IcfCdX3fwJAT2bYm16l8%2FDP8G6vCBokZKPv2G4
+        - text: 13 cm & above
+- group "Included Components":
+  - heading "Included Components" [level=2]
+  - list "Included Components":
+    - listitem:
+      - link "Apply the filter Cleaning Cloth to narrow results":
+        - /url: /s?k=samsung+galaxy+s24+ultra+5%2Bg+cover&rh=n%3A976419031%2Cp_n_feature_two_browse-bin%3A27038980031&dc&crid=1IF8YQCBZPG9R&qid=1752124164&rnid=27038977031&sprefix=samsung+galaxy+s24+ultra%2Caps%2C274&ref=sr_nr_p_n_feature_two_browse-bin_1&ds=v1%3AvmG6tD%2Fg0A2a4p6591G201YZ8v%2FA1zHEphAEWc6B41A
+        - text: Cleaning Cloth
+- iframe
+- button "Leave feedback on Sponsored advertisement"
+- iframe
+- button "Leave feedback on Sponsored advertisement"
+- complementary "Your recently viewed items and featured recommendations"
+- button "Back to top"
+- heading "Get to Know Us" [level=6]
+- list:
+  - listitem:
+    - link "About Amazon":
+      - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+  - listitem:
+    - link "Careers":
+      - /url: https://amazon.jobs
+  - listitem:
+    - link "Press Releases":
+      - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+  - listitem:
+    - link "Amazon Science":
+      - /url: https://www.amazon.science
+- heading "Connect with Us" [level=6]
+- list:
+  - listitem:
+    - link "Facebook":
+      - /url: https://www.amazon.in/gp/redirect.html/ref=footer_fb?location=http://www.facebook.com/AmazonIN&token=2075D5EAC7BB214089728E2183FD391706D41E94&6
+  - listitem:
+    - link "Twitter":
+      - /url: https://www.amazon.in/gp/redirect.html/ref=footer_twitter?location=http://twitter.com/AmazonIN&token=A309DFBFCB1E37A808FF531934855DC817F130B6&6
+  - listitem:
+    - link "Instagram":
+      - /url: https://www.amazon.in/gp/redirect.html?location=https://www.instagram.com/amazondotin&token=264882C912E9D005CB1D9B61F12E125D5DF9BFC7&source=standards
+- heading "Make Money with Us" [level=6]
+- list:
+  - listitem:
+    - link "Sell on Amazon":
+      - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+  - listitem:
+    - link "Sell under Amazon Accelerator":
+      - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+  - listitem:
+    - link "Protect and Build Your Brand":
+      - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+  - listitem:
+    - link "Amazon Global Selling":
+      - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+  - listitem:
+    - link "Supply to Amazon":
+      - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+  - listitem:
+    - link "Become an Affiliate":
+      - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+  - listitem:
+    - link "Fulfilment by Amazon":
+      - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+  - listitem:
+    - link "Advertise Your Products":
+      - /url: https://advertising.amazon.in/?ref=Amz.in
+  - listitem:
+    - link "Amazon Pay on Merchants":
+      - /url: https://www.amazonpay.in/merchant
+- heading "Let Us Help You" [level=6]
+- list:
+  - listitem:
+    - link "Your Account":
+      - /url: /gp/css/homepage.html?ref_=footer_ya
+  - listitem:
+    - link "Returns Centre":
+      - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+  - listitem:
+    - link "Recalls and Product Safety Alerts":
+      - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+  - listitem:
+    - link "100% Purchase Protection":
+      - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+  - listitem:
+    - link "Amazon App Download":
+      - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+  - listitem:
+    - link "Help":
+      - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+- link "Amazon India Home":
+  - /url: /ref=footer_logo
+- link "Choose a language for shopping. Current selection is English.":
+  - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+  - text: English
+- button "Expand to Change Language or Country"
+- button "Choose a country/region for shopping. The current selection is India.": India
+- list:
+  - listitem:
+    - link "AbeBooks Books, art & collectibles":
+      - /url: https://www.abebooks.com/
+      - heading "AbeBooks" [level=5]
+      - text: Books, art & collectibles
+  - listitem:
+    - link "Amazon Web Services Scalable Cloud Computing Services":
+      - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+      - heading "Amazon Web Services" [level=5]
+      - text: Scalable Cloud Computing Services
+  - listitem:
+    - link "Audible Download Audio Books":
+      - /url: https://www.audible.in/
+      - heading "Audible" [level=5]
+      - text: Download Audio Books
+  - listitem:
+    - link "IMDb Movies, TV & Celebrities":
+      - /url: https://www.imdb.com/
+      - heading "IMDb" [level=5]
+      - text: Movies, TV & Celebrities
+- list:
+  - listitem:
+    - link "Shopbop Designer Fashion Brands":
+      - /url: https://www.shopbop.com/
+      - heading "Shopbop" [level=5]
+      - text: Designer Fashion Brands
+  - listitem:
+    - link "Amazon Business Everything For Your Business":
+      - /url: /business?ref=footer_aingw
+      - heading "Amazon Business" [level=5]
+      - text: Everything For Your Business
+  - listitem:
+    - link "Prime Now 2-Hour Delivery on Everyday Items":
+      - /url: /now?ref=footer_amznow
+      - heading "Prime Now" [level=5]
+      - text: 2-Hour Delivery on Everyday Items
+  - listitem:
+    - link "Amazon Prime Music 100 million songs, ad-free Over 15 million podcast episodes":
+      - /url: /music/prime?ref=footer_apm
+      - heading "Amazon Prime Music" [level=5]
+      - text: 100 million songs, ad-free Over 15 million podcast episodes
+- list:
+  - listitem:
+    - link "Conditions of Use & Sale":
+      - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+  - listitem:
+    - link "Privacy Notice":
+      - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+  - listitem:
+    - link "Interest-Based Ads":
+      - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+- text: © 1996-2025, Amazon.com, Inc. or its affiliates
+```
+
+# Test source
+
+```ts
+   1 | import { test,expect} from "@playwright/test";
+   2 |
+   3 | test("amazon product sort",async({browser})=>{
+   4 |     const context = await browser.newContext({
+   5 |         permissions: [], // Don't grant 'notifications' permission
+   6 |         args: ['--disable-notifications'], // Optional: Chromium-specific
+   7 |     });
+   8 |     const page = await context.newPage();
+   9 |     await page.goto("https://www.amazon.in");
+  10 |     await page.fill("//input[@aria-label='Search Amazon.in']", "samsung galaxy s24 ultra");
+  11 |     await page.waitForLoadState()
+  12 |     let option= 6;
+  13 |     await page.locator(`//div[@id='sac-suggestion-row-${option}']`).click();
+  14 |     await page.waitForLoadState();
+> 15 |     expect(page.locator("//span[@class='a-color-state a-text-bold']")).toHaveText("samsung galaxy s24 ultra");
+     |                                                                        ^ Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)
+  16 |     await page.locator("//span[text()='256 GB']/..//div").click();
+  17 |     expect(page.locator("//span[text()='256 GB']/..//div")).toBeChecked();
+  18 |     //wait expect(true).toBe(false); // Fails intentionally
+  19 | });
+  20 |
+  21 |
+```
